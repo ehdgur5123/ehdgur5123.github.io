@@ -1,10 +1,10 @@
-----
+---
 layout: single
 title: "Git & GitHube"
 categories: cooding
 tag: [python, blog, dd]
 toc: true
-----
+---
 
 # Git 설정 & 프로젝트 관리 시작하기 
 
