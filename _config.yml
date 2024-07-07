@@ -119,9 +119,6 @@ author:
   location         : "Road"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "ehdgur3506@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://ehdgur5123.github.io/"
