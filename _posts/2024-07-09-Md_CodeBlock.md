@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "마크다운(Markdown) 사용법"
+title: "[1] 마크다운(Markdown) : 코드 블록(Code Block)"
 categories: Markdown
-tag: [Markdown]
+tag: [Markdown, Code Block]
 toc: true
 author_profile: false
 sidebar:
@@ -11,31 +11,32 @@ sidebar:
   
 <hr>
 
-## 마크다운(Markdown) 코드 블록(Code Block)  
+## 코드 블록(Code Block)  
     
-### 코드 블록(Code Block) 사용 방법  
+### 문법
+
+<p>
+
 * 마크다운으로 코드블록을 만들려면 \`\`\`로 감싸야 한다.  
 * 변환할 언어를 \`\`\` 옆에 작성하고 내부에 코드를 작성하고 \`\`\`로 닫아준다.  
-<br>
-
 * 형식  
   \`\`\`python  
   print('hello')  
   \`\`\`  
-
-* 출력  
+* 출력
 ```python
 print('hello')
 ```
-  
 * 참고
   * 코드블록 내부에 \`\`\`를 넣고 싶으면 \`\`\`\`로 코드블록을 감싸준다.
   * \`를 문자로 입력 받고 싶으면 \ 를 앞에 입력해서 이스케이프 처리한다.(\\`)
   * \`는 키보드의 ~ 아래에 있다. [Shift + ~] 
 
-<br>
+</p>
 
-### 마크다운(Markdown) 코드 블록(Code Block) 테이블
+### 코드 블록(Code Block) 테이블
+
+<p>
 
 |    언어   | Markdown |    언어    |  Markdown  |
 |:---------:|:--------:|:----------:|:----------:|
@@ -48,10 +49,6 @@ print('hello')
 |    HTTP   |   http   |    Ruby    |    ruby    |
 |    Ini    |    ini   |     SQL    |     sql    |
 
-<br>
+</p>
+
 <hr>
-
-
-## 마크다운(Markdown) 표만들기
-
-* 마크다운(Markdown) 표를 자동으로 만들어주는 사이트 : [tablesgenerator](https://www.tablesgenerator.com/markdown_tables)
