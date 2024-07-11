@@ -8,19 +8,35 @@ main:
     url: /search/    
 
 docs: 
-  - title: "Mark Down"
+  - title: book
     children:
-      - title: "0. 마크다운(Markdown)"
-        url: "/posts/Markdown-1/"
-      - title: "Tag"
-        url: /tags/
+      - title: "YES24"
+        url: "http://www.yes24.com/Product/Goods/99029275"
+        external: "_blank"
+      - title: "Aladin"
+        url: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268617710"
+        external: "_blank"
+      - title: "Ridibooks"
+        url: "https://ridibooks.com/books/1160000034"
+        external: "_blank"
+      - title: "Kyobobook"
+        url: "http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791158392550"
+        external: "_blank"
+      - title: "INTERPARK"
+        url: "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=348475772"
+        external: "_blank"
 
-  - title: "목차2"
+MarkDown:
+  - title: "Mark Down 강좌 목록"
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/        
+      - title: "1. 마크다운 소개"
+        url: "/posts/Markdown-1/"
+      - title: "2. 마크다운 제목(Header)"
+        url: "/posts/Markdown-2/" 
+      - title: "3. 마크다운 테이블(Table)"
+        url: "/posts/Markdown-3/" 
+      - title: "4. 마크다운 코드 블록(Code Block)"
+        url: "/posts/Markdown-4/" 
 
 
   # - title: "About"
