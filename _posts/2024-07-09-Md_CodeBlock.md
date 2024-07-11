@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[1] 마크다운(Markdown) : 코드 블록(Code Block)"
+title: "마크다운(Markdown) : 코드 블록(Code Block)"
 categories: Markdown
 tag: [Markdown, Code Block]
 toc: true
