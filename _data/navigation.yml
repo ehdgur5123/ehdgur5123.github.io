@@ -11,7 +11,7 @@ docs:
   - title: "Mark Down"
     children:
       - title: "0. 마크다운(Markdown)"
-        url: "/posts/Md_Main/"
+        url: "/posts/Markdown-1/"
       - title: "Tag"
         url: /tags/
 
