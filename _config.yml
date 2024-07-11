@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **poor** person."
   location         : "Road"
-  email            :
+  email            : "ehdgur3506@naver.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

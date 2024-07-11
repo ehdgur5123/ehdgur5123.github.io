@@ -29,13 +29,13 @@ docs:
 MarkDown:
   - title: "Mark Down 강좌 목록"
     children:
-      - title: "1. 마크다운 소개"
+      - title: "1. 소개(Introduction)"
         url: "/posts/Markdown-1/"
-      - title: "2. 마크다운 제목(Header)"
+      - title: "2. 제목(Header)"
         url: "/posts/Markdown-2/" 
-      - title: "3. 마크다운 테이블(Table)"
+      - title: "3. 테이블(Table)"
         url: "/posts/Markdown-3/" 
-      - title: "4. 마크다운 코드 블록(Code Block)"
+      - title: "4. 코드 블록(Code Block)"
         url: "/posts/Markdown-4/" 
 
 

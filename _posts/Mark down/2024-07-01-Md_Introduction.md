@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "마크다운(Markdown) 소개"
+title: "마크다운(Markdown) : 소개(introduction)"
 categories: Markdown
 tag: [Markdown, Jekyll]
 permalink : /posts/Markdown-1/
@@ -19,9 +19,6 @@ sidebar:
 ### 마크다운(Markdown) 관련 사이트
 
 * [유튜브 테디노트의 깃헙(Github) 블로그 만들기](https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr)
-
-<br>
-
 * [HEROPY.DEV 마크다운(MarkDown) 사용법 총정리](https://www.heropy.dev/p/B74sNE)
 
   <hr>
