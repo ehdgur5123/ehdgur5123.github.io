@@ -11,7 +11,7 @@ docs:
   - title: "Mark Down"
     children:
       - title: "0. 마크다운(Markdown)"
-        url: /_posts/2024-07-11-Md_Main/
+        url: /2024/07/11/Md_Main/
       - title: "Tag"
         url: /tags/
 
