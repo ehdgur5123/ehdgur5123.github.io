@@ -7,7 +7,7 @@ permalink : /posts/Markdown-4/
 toc: true
 author_profile: false
 sidebar:
-  nav: "docs"
+  nav: "MarkDown"
 ---
   
 <hr>
