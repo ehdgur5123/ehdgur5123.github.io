@@ -27,16 +27,18 @@ docs:
         external: "_blank"
 
 MarkDown:
-  - title: "Mark Down 강좌 목록"
+  - title: "Mark Down 작성 목록"
     children:
       - title: "1. 소개(Introduction)"
         url: "/posts/Markdown-1/"
       - title: "2. 제목(Header)"
         url: "/posts/Markdown-2/" 
-      - title: "3. 테이블(Table)"
-        url: "/posts/Markdown-3/" 
-      - title: "4. 코드 블록(Code Block)"
-        url: "/posts/Markdown-4/" 
+      - title: "3. 강조(Emphasis)"
+        url: "/posts/Markdown-3/"   
+      - title: "4. 테이블(Table)"
+        url: "/posts/Markdown-10/" 
+      - title: "5. 코드 블록(Code Block)"
+        url: "/posts/Markdown-11/" 
 
 
   # - title: "About"
