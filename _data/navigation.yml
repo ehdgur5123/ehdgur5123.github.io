@@ -36,10 +36,14 @@ MarkDown:
       - title: "3. 강조(Emphasis)"
         url: "/posts/Markdown-3/"   
       - title: "4. 색상(Color)"
-        url: "/posts/Markdown-4/"    
-      - title: "5. 테이블(Table)"
+        url: "/posts/Markdown-4/"   
+      - title: "5. 인용문(Block Quote)"
+        url: "/posts/Markdown-5/"  
+      - title: "6. 목록(List)"
+        url: "/posts/Markdown-6/"     
+      - title: "7. 테이블(Table)"
         url: "/posts/Markdown-10/" 
-      - title: "6. 코드 블록(Code Block)"
+      - title: "8. 코드 블록(Code Block)"
         url: "/posts/Markdown-11/" 
 
 
