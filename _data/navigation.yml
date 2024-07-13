@@ -27,7 +27,7 @@ docs:
         external: "_blank"
 
 MarkDown:
-  - title: "Mark Down 작성 목록"
+  - title: "Mark Down List"
     children:
       - title: "1. 소개(Introduction)"
         url: "/posts/Markdown-1/"
@@ -47,10 +47,10 @@ MarkDown:
         url: "/posts/Markdown-11/" 
         
 Operating System:
-  - title: "Operating System 작성 목록"
+  - title: "Operating System List"
     children:
-      - title: "1. 개요"
-        url: "/posts/OS-1/" 
+      - title: "1. 운영체제 개요"
+        url: "/posts/OS-01/" 
 
 
   # - title: "About"
