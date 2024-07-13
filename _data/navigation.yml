@@ -45,6 +45,12 @@ MarkDown:
         url: "/posts/Markdown-10/" 
       - title: "8. 코드 블록(Code Block)"
         url: "/posts/Markdown-11/" 
+        
+Operating System:
+  - title: "Operating System 작성 목록"
+    children:
+      - title: "1. 개요"
+        url: "/posts/OS-1/" 
 
 
   # - title: "About"
