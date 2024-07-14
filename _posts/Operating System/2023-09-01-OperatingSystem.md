@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ”운영체제(Operating System) : 운영체제 개요“
+title: "운영체제(Operating System) : 운영체제 개요"
 categories: Operating System
 tag: [Operating System, kernel, system call]
 permalink : /posts/OS-01/

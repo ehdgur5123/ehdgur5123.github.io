@@ -1,9 +1,9 @@
 ---
 layout: single
-title: ”운영체제(Operating System) : 파일시스템 관리“
+title: "운영체제(Operating System) : 파일시스템 관리"
 categories: Operating System
 tag: [Operating System, File System]
-permalink : /posts/OS-07/
+permalink : /posts/OS-15/
 toc: true
 author_profile: false
 sidebar:
