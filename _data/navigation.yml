@@ -46,7 +46,7 @@ MarkDown:
       - title: "8. 코드 블록(Code Block)"
         url: "/posts/Markdown-11/" 
         
-Operating System:
+OperatingSystem:
   - title: "Operating System List"
     children:
       - title: "1. 운영체제 개요"

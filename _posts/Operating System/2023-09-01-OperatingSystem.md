@@ -1,13 +1,13 @@
 ---
 layout: single
 title: ”운영체제(Operating System) : 운영체제 개요“
-categories: OS
-tag: [OS, kernel, system call]
+categories: Operating System
+tag: [Operating System, kernel, system call]
 permalink : /posts/OS-01/
 toc: true
 author_profile: false
 sidebar:
-  nav: ”Operating System“
+  nav: "OperatingSystem"
 ---
 
 <hr>

@@ -1,14 +1,14 @@
-—--
+---
 layout: single
 title: ”운영체제(Operating System) : 파일시스템 관리“
-categories: OS
-tag: [OS, File System]
+categories: Operating System
+tag: [Operating System, File System]
 permalink : /posts/OS-07/
 toc: true
 author_profile: false
 sidebar:
-  nav: ”Operating System“
-—--
+  nav: "OperatingSystem"
+---
 
 <hr>
 
@@ -21,7 +21,7 @@ sidebar:
 * 디렉터리
   * 루트(/) 디렉터리 : 최상위 디렉터리
   * 트리 구조 디렉터리
-![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_1.png) 
+![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_1.jpeg) 
 
 * 절대경로 : 루트(/) 디렉터리에서 자기 자신까지 이르는 고유한 경로
 * 상대경로 : 현재 내가 위치한 디렉터리에서 대상 파일까지의 경로
