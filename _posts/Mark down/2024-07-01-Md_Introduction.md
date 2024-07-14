@@ -21,4 +21,4 @@ sidebar:
 * [유튜브 테디노트의 깃헙(Github) 블로그 만들기](https://www.youtube.com/watch?v=--MMmHbSH9k&list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr)
 * [HEROPY.DEV 마크다운(MarkDown) 사용법 총정리](https://www.heropy.dev/p/B74sNE)
 
-  <hr>
+<hr>

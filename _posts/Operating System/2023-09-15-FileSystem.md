@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "운영체제(Operating System) : 파일시스템 관리"
-categories: Operating System
+categories: OperatingSystem
 tag: [Operating System, File System]
 permalink : /posts/OS-15/
 toc: true
@@ -26,4 +26,4 @@ sidebar:
 * 절대경로 : 루트(/) 디렉터리에서 자기 자신까지 이르는 고유한 경로
 * 상대경로 : 현재 내가 위치한 디렉터리에서 대상 파일까지의 경로
   
-   
+<hr>   
