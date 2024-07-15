@@ -21,6 +21,7 @@ sidebar:
 * 디렉터리
   * 루트(/) 디렉터리 : 최상위 디렉터리
   * 트리 구조 디렉터리
+  
   ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_1.PNG) 
 
 * **절대경로** : 루트(/) 디렉터리에서 자기 자신까지 이르는 고유한 경로
@@ -29,6 +30,7 @@ sidebar:
 * 디렉터리 엔트리(행)
   * 디렉터리도 파일의 한 종류
   * 파일이 보조기억장치 내 어디에 담겨 있는지 위치를 유추할 수 있는 정보를 테이블 형태로 저장
+
   ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_2.PNG)
 
 <br>
@@ -60,6 +62,7 @@ sidebar:
 * 외부 단편화
   * 여유 공간이 여러 조각으로 나뉘는 현상
   * 파일을 연속적으로 할당하였기 때문에 파일을 삭제하면 삭제된 블록의 공백이 발생
+
   ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_4.PNG)
 
 #### 불연속 할당
@@ -68,7 +71,9 @@ sidebar:
  
 * 각 블록에 다음 블록의 주소를 저장하여 다음 블록이 어디에 있는지 알 수 있게 할당하는 방식
 * 다음 블록의 위치를 알 수 있어 아무 블록에나 할당이 가능(외부 단편화 문제 해결)
+
 ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_5.PNG)
+
 * 단점
   * 반드시 첫 번째 블록부터 하나씩 차례대로 읽어야 한다.
     * 파일 내 임의의 위치에 접근하려면 첫 번째 블록부터 읽어야 하므로 임의 접근 속도가 매우 느림
@@ -77,8 +82,10 @@ sidebar:
 
 ##### 색인 할당
 
-* 파일의 모든 블록 주소를 **색인 블록**이라는 하나의 블록에 모아 관리하는 방식   
+* 파일의 모든 블록 주소를 **색인 블록**이라는 하나의 블록에 모아 관리하는 방식
+
 ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_6.PNG)
+
 * 색인 블록 주소만 알면 파일에 접근이 가능
 * 디렉터리 엔트리에는 파일의 이름과 색인 블록 주소를 명시
 * 파일 내 임의의 위치에 접근하려면 색인 블록 주소의 i번째 항목에 접근하면 되므로 임의 접근 속도가 빠름
