@@ -32,7 +32,7 @@ sidebar:
 * **시스템 호출(=시스템 콜)**
   * 사용자 모드에서 하드웨어를 제어하기 위해 커널 모드로 전환하는 방법
 
-![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter9_1.png)
+  ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter9_1.png)
 
 * **운영체제의 핵심서비스**
   * 프로세스 관리
