@@ -21,7 +21,7 @@ sidebar:
 * 디렉터리
   * 루트(/) 디렉터리 : 최상위 디렉터리
   * 트리 구조 디렉터리
-  ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_1.jpeg) 
+  ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_1.PNG) 
 
 * **절대경로** : 루트(/) 디렉터리에서 자기 자신까지 이르는 고유한 경로
 * **상대경로** : 현재 내가 위치한 디렉터리에서 대상 파일까지의 경로
@@ -30,6 +30,8 @@ sidebar:
   * 디렉터리도 파일의 한 종류
   * 파일이 보조기억장치 내 어디에 담겨 있는지 위치를 유추할 수 있는 정보를 테이블 형태로 저장
   ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_2.PNG)
+
+<br>
 
 ## 파일 시스템
 
@@ -42,13 +44,17 @@ sidebar:
   * 저장 장치를 완전히 삭제하는 것이 아님
 
 ### 파일 할당 방법
+
   * 하드 디스크의 가장 작은 저장 단위는 섹터
   * 운영체제는 하나 이상의 섹터를 블록이라는 단위로 묶어서 **블록 단위로 파일과 디렉터리를 관리**
-  * 파일 할당
+  * 파일 할당  
+
   ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_3.PNG)
 
+    <br>
+
     * 연속 할당
-    
+    <hr>
       * 보조기억장치 내 연속적인 블록에 파일을 할당하는 방식
       * 첫 번째 블록의 주소와 블록의 길이만 알면 파일에 접근이 가능
       * 디렉터리 엔트리에 첫 번째 블록의 주소와 블록의 길이를 명시
@@ -58,9 +64,13 @@ sidebar:
         * 파일을 연속적으로 할당하였기 때문에 파일을 삭제하면 삭제된 블록의 공백이 발생
         ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_4.PNG)
 
+    <br>
+
     * 불연속 할당
+    <hr>
 
       * 연결 할당
+      <hr>
         * 각 블록에 다음 블록의 주소를 저장하여 다음 블록이 어디에 있는지 알 수 있게 할당하는 방식
         * 다음 블록의 위치를 알 수 있어 아무 블록에나 할당이 가능(외부 단편화 문제 해결)
         ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_5.PNG)
@@ -70,7 +80,10 @@ sidebar:
           * 하드웨어 고장이나 오류 발생 시 해당 블록 이후 블록은 접근할 수 없음
         * 현재까지 많이 사용되는 **FAT 파일 시스템**은 연결 할당을 변형한 형태
 
+      <br>
+
       * 색인 할당
+      <hr>
         * 파일의 모든 블록 주소를 **색인 블록**이라는 하나의 블록에 모아 관리하는 방식   
         ![출처:https://hongong.hanbit.co.kr](../../assets/images/OperatingSystem/OS_chapter15_6.PNG)
         * 색인 블록 주소만 알면 파일에 접근이 가능
