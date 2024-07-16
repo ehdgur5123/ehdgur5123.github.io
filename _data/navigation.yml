@@ -41,9 +41,11 @@ MarkDown:
         url: "/posts/Markdown-5/"  
       - title: "6. 목록(List)"
         url: "/posts/Markdown-6/"     
-      - title: "7. 테이블(Table)"
+      - title: "8. 이미지(Image)"
+        url: "/posts/Markdown-8/"    
+      - title: "10. 테이블(Table)"
         url: "/posts/Markdown-10/" 
-      - title: "8. 코드 블록(Code Block)"
+      - title: "11. 코드 블록(Code Block)"
         url: "/posts/Markdown-11/" 
         
 OperatingSystem:
