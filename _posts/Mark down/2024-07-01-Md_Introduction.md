@@ -3,7 +3,7 @@ layout: single
 title: "마크다운(Markdown) : 소개(introduction)"
 categories: Markdown
 tag: [Markdown, Jekyll]
-permalink : /posts/Markdown-1/
+permalink : /posts/Markdown-01/
 toc: true
 author_profile: false
 sidebar:
@@ -12,9 +12,9 @@ sidebar:
 
 <hr>
 
-## 마크다운(Markdown)
+## 지킬(Jekyll) 기반 마크다운(Markdown)
 
-* 깃허브(Github) 블로그에서 사용하는 **지킬(Jekyll)** 기반 마크다운(Markdown) 언어
+* 깃허브(Github) 블로그 작성을 위한 **지킬(Jekyll)** 기반 마크다운(Markdown) 언어
 
 ### 마크다운(Markdown) 관련 사이트
 

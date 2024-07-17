@@ -3,7 +3,7 @@ layout: single
 title: "마크다운(Markdown) : 인용문(BlockQuote)"
 categories: Markdown
 tag: [Markdown, BlockQuote]
-permalink : /posts/Markdown-5/
+permalink : /posts/Markdown-05/
 toc: true
 author_profile: false
 sidebar:

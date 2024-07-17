@@ -3,7 +3,7 @@ layout: single
 title: "마크다운(Markdown) : 강조 표현(Emphasis)"
 categories: Markdown
 tag: [Markdown, Emphasis]
-permalink : /posts/Markdown-3/
+permalink : /posts/Markdown-03/
 toc: true
 author_profile: false
 sidebar:

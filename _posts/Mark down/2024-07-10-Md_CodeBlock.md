@@ -3,7 +3,7 @@ layout: single
 title: "마크다운(Markdown) : 코드 블록(Code Block)"
 categories: Markdown
 tag: [Markdown, Code Block]
-permalink : /posts/Markdown-11/
+permalink : /posts/Markdown-10/
 toc: true
 author_profile: false
 sidebar:
