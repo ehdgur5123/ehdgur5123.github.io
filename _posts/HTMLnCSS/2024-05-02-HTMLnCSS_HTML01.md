@@ -28,7 +28,7 @@ sidebar:
 
 * VS Code에서 \!를 입력하면 자동완성된다.
 
-  ```HTML  
+  ```html 
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -70,7 +70,7 @@ sidebar:
 
 * 입력
 
-  ```HTML  
+  ```html 
   <!DOCTYPE html>
   <html lang="ko">
   <head>
