@@ -68,7 +68,10 @@ HTML&CSS:
       - title: "1. HTML&CSS 소개"
         url: "/posts/HTMLnCSS-01/" 
       - title: "2. 제목과 본문"
-        url: "/posts/HTMLnCSS-02/"  
+        url: "/posts/HTMLnCSS-02/" 
+      - title: "3. 종류와 중요도에 따른 태그"
+        url: "/posts/HTMLnCSS-03/" 
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
