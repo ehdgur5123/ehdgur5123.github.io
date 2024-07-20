@@ -19,6 +19,8 @@ sidebar:
 
   ![image](../../assets/images/MarkDown/MD_TheOthers-1.PNG)
 
+<br>
+
 ## 각주(Footnote)
 
 * `[^각주]` 의 형태  
@@ -35,6 +37,8 @@ sidebar:
   이것은 깃허브 블로그 작성을 위한 마크다운[^1] 문법을 공부하는 공간이다.
 
   [^1]: 마크다운 (Markdown)은마크업 언어의 일종으로, 존 그루버(John Gruber) 와 아론 스워츠(Aaron Swartz)가 만들었다.
+
+<br>
 
 ## 작업 목록(Task list)
 
@@ -53,27 +57,41 @@ sidebar:
   - [ ] 점심
   - [x] 저녁 
 
+<br>
+
 ## 이모지(Emoji)
 
 * 이모지를 사용할 수 있는 사이트 : [https://emojipedia.org/](https://emojipedia.org/)
 * 😭 😿
 
+<br>
+
 ## 하이라이트(Highlight)  
 * HTML mark태그  
 * `==Highlight==`의 형태이나, 깃허브 블로그에서는 지원이 안된다.  
-* HTML 태그를 활용해야 한다. : <mark>Highlight</mark>  
+* HTML 태그를 활용해야 한다.
+  * 입력 : `<mark>Highlight</mark>`
+  * 출력 : <mark>Highlight</mark> 
 
+<br>
 
-## Subscript  
+## 첨자(Subscript)  
 * HTML sub태그  
 * `H~2~O`의 형태이나, 깃허브 블로그에서는 지원이 안된다.  
-* HTML 태그를 활용해야 한다. : <sub>H~2~O</sub>  
+* HTML 태그를 활용해야 한다.
+  * 입력 : `H<sub>2</sub>O`  
+  * 출력 : H<sub>2</sub>O
 
-## Superscript  
+<br>
+
+## 어깨기호(Superscript)  
 * HTML sup태그   
 * `X^2^`의 형태이나, 깃허브 블로그에서는 지원이 안된다.  
-* HTML 태그를 활용해야 한다. : <sup>X^2^</sup>  
+* HTML 태그를 활용해야 한다.
+  * 입력 : `X<sup>2</sup>`  
+  * 출력 : X<sup>2</sup>  
 
+<br>
 
 ## 주석  
 
