@@ -122,6 +122,6 @@ sidebar:
 
 * 출력 결과
 
-  [HTML & CSS : 제목과 본문 실습](/posts/HTMLnCSS/HtmlTraining/HTMLnCSS_HTML01.HTML)
+  [HTML & CSS : 제목과 본문 실습](/posts/HTMLnCSS_HTML01/)
 
 <hr>
