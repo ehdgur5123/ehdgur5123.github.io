@@ -15,19 +15,20 @@ sidebar:
 ## 수평선(Horizontal Rule)
 
 * HTML의 hr 태그
-
-***
-
----
-
-___
+* 별 3개(\*\*\*) or 하이픈 3개(\-\-\-) or 언더바 3개(\_\_\_)
+  ![image](../../assets/images/MarkDown/MD_TheOthers-1.PNG)
 
 ## 각주(Footnote)
 
-안녕[^1]
+* `[^각주]` 의 형태
 
-[^1] : 안녕하세요
+* 입력
+  `이것은 깃허브 블로그 작성을 위한 마크다운[^1] 문법을 공부하는 공간이다.` 
+  `[^1]: 마크다운 (Markdown)은마크업 언어의 일종으로, 존 그루버(John Gruber) 와 아론 스워츠(Aaron Swartz)가 만들었다.`
 
+* 출력
+  이것은 깃허브 블로그 작성을 위한 마크다운[^1] 문법을 공부하는 공간이다.
+  [^1]: 마크다운 (Markdown)은마크업 언어의 일종으로, 존 그루버(John Gruber) 와 아론 스워츠(Aaron Swartz)가 만들었다.
 ## Task list
 
 - [x] 아침

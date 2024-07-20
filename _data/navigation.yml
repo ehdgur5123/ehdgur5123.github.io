@@ -57,8 +57,10 @@ OperatingSystem:
     children:
       - title: "1. 운영체제 개요"
         url: "/posts/OS-01/" 
-      - title: "2. 파일시스템"
+      - title: "15. 파일시스템 관리 Part.01"
         url: "/posts/OS-15/" 
+      - title: "16. 파일시스템 관리 Part.02"
+        url: "/posts/OS-16/"   
 
 
   # - title: "About"
