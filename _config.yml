@@ -299,6 +299,7 @@ defaults:
       sidebar:
         nav: "MarkDown"
         nav: "OperatingSystem"
+        nav: "HTML&CSS"
 
 
 date_format: "%Y-%m-%d"

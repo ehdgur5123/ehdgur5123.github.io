@@ -62,6 +62,14 @@ OperatingSystem:
       - title: "16. 파일시스템 관리 Part.02"
         url: "/posts/OS-16/"   
 
+HTML&CSS:
+  - title: "HTML&CSS List"
+    children:
+      - title: "1. HTML&CSS 소개"
+        url: "/posts/HTMLnCSS-01/" 
+      - title: "2. 제목과 본문"
+        url: "/posts/HTMLnCSS-02/"  
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

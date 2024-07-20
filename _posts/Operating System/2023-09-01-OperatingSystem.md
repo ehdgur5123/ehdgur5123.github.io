@@ -12,6 +12,12 @@ sidebar:
 
 <hr>
 
+## 혼자공부하는 컴퓨터구조+운영체제
+
+* 혼자공부하는 컴퓨터구조+운영체제 강의 : [한빛미디어(youtube)](https://www.youtube.com/watch?v=bls_GjX-4U8&list=PLVsNizTWUw7FCS83JhC1vflK8OcLRG0Hl)
+
+## 운영체제(Operating System)
+
 * **운영체제(Operating System)**
   * 컴퓨터 하드웨어를 제어하기 위한 소프트웨어
 
