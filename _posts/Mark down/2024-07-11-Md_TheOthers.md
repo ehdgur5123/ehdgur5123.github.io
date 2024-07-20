@@ -21,7 +21,8 @@ sidebar:
 
 ## 각주(Footnote)
 
-* `[^각주]` 의 형태
+* `[^각주]` 의 형태  
+* 각주의 내용은 하단에 출력된다
 
 * 입력
 
@@ -57,29 +58,30 @@ sidebar:
 * 이모지를 사용할 수 있는 사이트 : [https://emojipedia.org/](https://emojipedia.org/)
 * 😭 😿
 
-## 하이라이트(Highlight)
-* HTML mark태그
+## 하이라이트(Highlight)  
+* HTML mark태그  
+* `==Highlight==`의 형태이나, 깃허브 블로그에서는 지원이 안된다.  
+* HTML 태그를 활용해야 한다. : <mark>Highlight</mark>  
 
-==Highlight==
 
-## Subscript
-* HTML sub태그
+## Subscript  
+* HTML sub태그  
+* `H~2~O`의 형태이나, 깃허브 블로그에서는 지원이 안된다.  
+* HTML 태그를 활용해야 한다. : <sub>H~2~O</sub>  
 
-H~2~O
+## Superscript  
+* HTML sup태그   
+* `X^2^`의 형태이나, 깃허브 블로그에서는 지원이 안된다.  
+* HTML 태그를 활용해야 한다. : <sup>X^2^</sup>  
 
-## Superscript
-* HTML sup태그 
 
-X^2^
+## 주석  
 
-## 주석
+* 주석의 형태는 `<!-- 주석입니다. -->` 또는 `[//]: # "주석입니다."`의 형태  
 
-<!-- 안녕하세요. -->
+  ![image](../../assets/images/MarkDown/MD_TheOthers-2.PNG)  
 
-[//]: # 1번
+* `[//]: #`에는 문장에 `()` or `" "` or `' '` 으로 감싸주어야 한다.    
+* 깃허브 블로그에서는 감싸주지 않아도 주석처리는 되는 것 같다.    
 
-[//]: # (2번)
-
-[//]: # "3번"
-
-[//]: # '4번'
+<hr>  
