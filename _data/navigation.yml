@@ -57,8 +57,10 @@ OperatingSystem:
     children:
       - title: "1. 운영체제 개요"
         url: "/posts/OS-01/" 
-      - title: "2. 프로세스(Process)"
+      - title: "2. 프로세스 Part.01"
         url: "/posts/OS-02/"   
+      - title: "3. 프로세스 Part.02"
+        url: "/posts/OS-03/"  
       - title: "15. 파일시스템 관리 Part.01"
         url: "/posts/OS-15/" 
       - title: "16. 파일시스템 관리 Part.02"
