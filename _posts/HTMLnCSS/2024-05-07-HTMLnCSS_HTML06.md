@@ -3,7 +3,7 @@ layout: single
 title: "HTML & CSS : 표 사용하기"
 categories: HTML&CSS
 tag: [HTML]
-permalink : /posts/HTMLnCSS-06/
+permalink : /posts/HTMLnCSS-07/
 toc: true
 author_profile: false
 sidebar:
