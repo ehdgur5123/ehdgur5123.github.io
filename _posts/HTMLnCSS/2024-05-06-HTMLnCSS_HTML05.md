@@ -17,7 +17,7 @@ sidebar:
 ```html
 <img 
     src="https://cdn.pixabay.com/photo/2024/02/19/08/35/sailboat-8582847_640.jpg"
-    alt="이미지가 있었는데 없었습니다"
+    alt="이미지가 있었는데 없습니다"
     title="파도가 출렁출렁"
 >
 ```
