@@ -20,7 +20,7 @@ sidebar:
 | `<ol>` | 순서가 있는 목록 |         type, start 속성 사용 가능        |
 | `<li>` |    목록 아이템   | ul, ol 태그의 1촌 자식으로 이 태그만 가능 |
 
-- <mark>VS Code에서 `ul>li*4`를 누르고 Tab 하면 ul 태그 안에 li 태그 4개가 자동 생성</mark>
+- VS Code에서 `ul>li*4`를 누르고 `Tab` 하면 ul 태그 안에 li 태그 4개가 자동 생성
 
 ### ul 태그
 
@@ -114,8 +114,12 @@ sidebar:
 
     ![image](../../assets/images/HTMLnCSS/HTMLnCSS-04-03.png)
 
-    - CSS 적용 시
-        - `<head>` 태그에 CCS 삽입
-        - `<link rel="stylesheet" href="https://showcases.yalco.kr/html-css/01-04/05.css">`
+- CSS 적용 시
+
+    - `<head>` 태그에 CCS 삽입
+
+    ```html
+    <link rel="stylesheet" href="https://showcases.yalco.kr/html-css/01-04/05.css">
+    ```
 
     ![image](../../assets/images/HTMLnCSS/HTMLnCSS-04-04.png)
