@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "HTML & CSS : 사용자로부터 입력 받기"
+title: "HTML & CSS : 사용자로부터 입력 받기 1"
 categories: HTML&CSS
 tag: [HTML]
 permalink : /posts/HTMLnCSS-09/
@@ -28,6 +28,8 @@ sidebar:
 ### input 태그와 label 태그
 
 - 입력을 받기 위한 요소로 `id 속성`, `name 속성`, `type 속성` 등이 있음
+
+- `type 속성`에는 text, password, nember 등 다양한 종류가 있음
 
 - `name 속성`
 

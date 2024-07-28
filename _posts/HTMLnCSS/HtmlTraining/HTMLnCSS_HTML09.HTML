@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>텍스트 관련 인풋 타입</h1>
+
+    <form>
+
+        <label for="text_01">text</label><br>
+        <input 
+        id="text_01" name="text_01" type="text"
+        placeholder="5자 이하" maxlength="5"
+        >
+        <br><br>
+
+        <label for="pw_01">password</label><br>
+        <input 
+        type="password" id="pw_01" name="pw_01" 
+        placeholder="4자 이상" minlength="4"
+        >
+        <br><br>
+
+        <label for="search_01">search</label><br>
+        <input type="search" id="search_01" name="search_01">
+        <br><br>
+
+        <label for="tel_01">tel</label><br>
+        <input type="tel" id="tel_01" name="tel_01">
+        <br><br>
+
+        <button type="submit">submit</button>
+    </form>
+
+    <br><br><hr><br><br>
+
+    <form action="#">
+
+        <label for="num">number</label>
+        <input type="number" id="num" min="0" max="10">
+        <br><br><br>
+
+        <label for="date">date</label>
+        <input type="date" id="date">
+        <br><br><br>
+
+        <label for="range">range</label>
+        <input type="range" id="range" min="0" max="100" step="20">
+        <br><br><br>
+
+    </form>
+
+    <br><br><hr><br><br>
+
+    <form action="#">
+        
+        <input type="checkbox" id="check" checked>
+        <label for="check">checkbox</label>
+    
+        <br><br>
+
+        <input type="radio" name="fruit" id="fruit_apple" value="apple" checked>
+        <label for="fruit_apple">사과</label>
+
+        <input type="radio" name="fruit" id="fruit_orange" value="orange">
+        <label for="fruit_orange">오렌지</label>
+        <br>
+
+        <input type="radio" name="vege" id="v_tomato" value="tomato">
+        <label for="v_tomato">토마토</label>
+
+        <input type="radio" name="vege" id="v_carvage" value="carvage" checked>
+        <label for="v_carvage">양배추</label>
+
+    </form>
+
+    <br><br><hr><br><br>
+
+    <form action="#">
+
+        <label for="file01">file</label>
+        <input
+            type="file" name="file01" id="file01"
+            accept="image/png, image/jpeg"
+            multiple
+        >
+
+        <br><br>
+
+        <label for="hidden01">hidden</label>
+        <input type="hidden" name="hidden01" id="hidden01">
+
+        <br><br>
+
+        <label for="email01">email</label>
+        <input type="email" name="email01" id="email01">
+
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+</html>
