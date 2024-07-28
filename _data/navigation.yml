@@ -86,7 +86,10 @@ HTML&CSS:
       - title: "6. 표 사용하기"
         url: "/posts/HTMLnCSS-07/"   
       - title: "7. 다른 곳으로의 링크"
-        url: "/posts/HTMLnCSS-08/"  
+        url: "/posts/HTMLnCSS-08/"
+      - title: "8. 사용자로부터 입력 받기"
+        url: "/posts/HTMLnCSS-09/"
+      
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
