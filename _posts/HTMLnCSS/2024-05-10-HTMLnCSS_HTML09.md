@@ -173,8 +173,7 @@ sidebar:
     <input type="radio" name="fruit" id="fruit_apple" value="apple" checked>
     <label for="fruit_apple">사과</label>
     <input type="radio" name="fruit" id="fruit_orange" value="orange">
-    <label for="fruit_orange">오렌지</label>
-    <br>
+    <label for="fruit_orange">오렌지</label><br>
     <input type="radio" name="vege" id="v_tomato" value="tomato">
     <label for="v_tomato">토마토</label>
     <input type="radio" name="vege" id="v_carvage" value="carvage" checked>
@@ -276,3 +275,110 @@ sidebar:
 <br>
 
 ## input 요소 공통(대부분) 속성
+
+- `value 속성` : 처음에 실제값을 넣음(placeholder 속성은 클릭 시 사라짐)
+
+- `autofocus 속성` : 초기 autofocus 속성값에 포커스가 되어 있음
+
+- `readonly 속성` : 읽기만 가능, 입력은 불가하나 **submit(제출) 가능**
+
+- `required 속성` : 필수로 입력해야함. 입력 안하면 submit(제출) 불가
+
+- `disabled 속성` : 입력 불가함. **submit(제출) 불가능**
+
+<br>
+
+<form action="#">
+    <label for="val">value</label><br>
+    <input type="text" name="val" id="val" value="지정됨">
+    <br><br>    
+    <label for="auto">autofocus</label><br>
+    <input
+    type="text" name="auto" id="auto"
+    placeholder="자동 포커스됨" autofocus
+    >
+    <br><br>
+    <label for="read">readonly</label><br>
+    <input
+    type="text" name="read" id="read" 
+    value="읽기만 가능, 전송됨" readonly
+    >
+    <br><br>
+    <label for="req">required</label><br>
+    <input
+    type="text" name="req" id="req"
+    placeholder="필수입력!" required
+    >
+    <br><br>
+    <fieldset>
+        <legend>disabled</legend>
+        <input
+        type="text" name="dis" id="dis"
+        placeholder="입력불가, 전송 안됨" disabled
+        >
+        <br><br>
+        <input type="radio" name="_fruit" id="_apple" value="apple" checked>
+        <label for="_apple">사과</label>
+        <input type="radio" name="_fruit" id="_grape" value="grape">
+        <label for="_grape">포도</label>
+        <input type="radio" name="_fruit" id="_orange" value="orange" disabled>
+        <label for="_orange">오렌지(품절)</label>
+    </fieldset>
+</form>
+
+<br>
+
+```html
+<form action="#">
+
+    <label for="val">value</label><br>
+    <input type="text" name="val" id="val" value="지정됨">
+
+    <br><br>    
+
+    <label for="auto">autofocus</label><br>
+    <input
+    type="text" name="auto" id="auto"
+    placeholder="자동 포커스됨" autofocus
+    >
+
+    <br><br>
+
+    <label for="read">readonly</label><br>
+    <input
+    type="text" name="read" id="read" 
+    value="읽기만 가능, 전송됨" readonly
+    >
+
+    <br><br>
+
+    <label for="req">required</label><br>
+    <input
+    type="text" name="req" id="req"
+    placeholder="필수입력!" required
+    >
+
+    <br><br>
+
+    <fieldset>
+        <legend>disabled</legend>
+
+        <input
+        type="text" name="dis" id="dis"
+        placeholder="입력불가, 전송 안됨" disabled
+        >
+
+        <br><br>
+
+        <input type="radio" name="_fruit" id="_apple" value="apple" checked>
+        <label for="_apple">사과</label>
+
+        <input type="radio" name="_fruit" id="_grape" value="grape">
+        <label for="_grape">포도</label>
+
+        <input type="radio" name="_fruit" id="_orange" value="orange" disabled>
+        <label for="_orange">오렌지(품절)</label>
+    </fieldset>
+
+</form>
+```
