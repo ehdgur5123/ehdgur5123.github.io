@@ -52,10 +52,10 @@ sidebar:
 
 <form autocomplete="on">
     <label for="id_1">이름</label>
-    <input if="id_1" name="id_1" type="text">
+    <input id="id_1" name="id_1" type="text">
     <button type="submit">pick me</button>
-    <button type="reset">초기화</button>
-    <button type="button">아직 기능없는 버튼</button>
+    <button type="reset">reset</button>
+    <button type="button">그냥 버튼</button>
 </form>
 
 <br>
@@ -63,9 +63,62 @@ sidebar:
 ```html
 <form autocomplete="on">
     <label for="id_1">이름</label>
-    <input if="id_1" name="id_1" type="text">
+    <input id="id_1" name="id_1" type="text">
     <button type="submit">pick me</button>
-    <button type="reset">초기화</button>
-    <button type="button">아직 기능없는 버튼</button>
+    <button type="reset">reset</button>
+    <button type="button">그냥 버튼</button>
+</form>
+```
+
+## fieldset 태그와 legend 태그
+
+|    태그    |                  설명                 |                   비고                  |
+|:----------:|:-------------------------------------:|:---------------------------------------:|
+| `<fieldset>` | 폼 태그 내 입력요소와 라벨들을 그룹화 | disabled 속성: 포함된 입력요소 비활성화 |
+|  `<legend>`  |      필드셋 요소의 제목 또는 설명     |                                         |
+
+<form autocomplete="on">
+    <fieldset>
+        <legend>아이브</legend>
+        <label for="name_01">이름</label>
+        <input id="name_01" name="name_01" type="text">
+        <label for="age_01">나이</label>
+        <input id="age_01" name="age_01" type="number">
+    </fieldset>
+    <fieldset>    
+        <legend>에스파</legend>
+        <label for="name_02">이름</label>
+        <input id="name_02" name="name_02" type="text">
+        <label for="age_02">나이</label>
+        <input id="age_02" name="age_02" type="number">
+    </fieldset>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+</form>
+
+<br>
+
+```html
+<form autocomplete="on">
+    
+    <fieldset>
+        <legend>아이브</legend>
+        <label for="name_01">이름</label>
+        <input id="name_01" name="name_01" type="text">
+        <label for="age_01">나이</label>
+        <input id="age_01" name="age_01" type="number">
+    </fieldset>
+
+    <fieldset>    
+        <legend>에스파</legend>
+        <label for="name_02">이름</label>
+        <input id="name_02" name="name_02" type="text">
+        <label for="age_02">나이</label>
+        <input id="age_02" name="age_02" type="number">
+    </fieldset>
+
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+
 </form>
 ```
