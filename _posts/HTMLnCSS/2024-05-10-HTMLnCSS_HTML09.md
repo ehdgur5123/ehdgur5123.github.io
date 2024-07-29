@@ -27,7 +27,6 @@ sidebar:
 | placeholder | 빈 칸에 보이는 안내문  |                         |
 |  maxlength  |       최대 길이       |                         |
 |  minlength  |       최소 길이       | 위반시 submit이 거부됨   |
-|             |                      |                         |
 
 ### placeholder 속성
 
@@ -303,7 +302,7 @@ sidebar:
     <label for="auto">autofocus</label><br>
     <input
     type="text" name="auto" id="auto"
-    placeholder="자동 포커스됨" autofocus
+    placeholder="자동 포커스됨"
     >
     <br><br>
     <label for="read">readonly</label><br>

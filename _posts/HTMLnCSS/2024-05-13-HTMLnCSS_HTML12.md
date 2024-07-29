@@ -144,7 +144,7 @@ HTML MDN 문서 : [HTML MDN 문서(링크)](https://developer.mozilla.org/ko/doc
 
     - `<colgroup> </colgroup>` : 테이블의 그룹 태그(열을 묶어서 속성 부여)
 
-        - `<col>` : 열의 묶음. colgroup 태그의 자식 태그. `span 속성`으로 열 수 
+        - `<col>` : 열의 묶음. colgroup 태그의 자식 태그. `span 속성`으로 열의 수를 지정 
         
 ## 링크 태그
 
@@ -354,4 +354,12 @@ HTML MDN 문서 : [HTML MDN 문서(링크)](https://developer.mozilla.org/ko/doc
 
 - 대체 문자 : 스페이스(`&sbsp;`), <(`&lt;`), >(`&gt;`) 등  [참조(링크)](https://html.spec.whatwg.org/multipage/named-characters.html)
 
+- `<kbd> </kbd> 태그` : <kbd>Ctrl</kbd> + <kbd>C</kbd> 와 같이 키보드 입력을 나타낼 때 사용
 
+- `<dfn> </dfn> 태그` : <dfn>특정 맥락</dfn>에서 정의, 설명하고 있는 용어를 나타낼 때 사용
+
+- `<small> </small> 태그` : <small>이와 같이 텍스트를 작게</small> 표시하는데 사용
+
+- `<span> </span> 태그` : 특별한 기능 없이 칸을 차지
+
+- `<div> </div> 태그` : 특별한 기능 없이 칸을 차지

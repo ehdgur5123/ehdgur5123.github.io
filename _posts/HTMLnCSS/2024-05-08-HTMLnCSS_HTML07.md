@@ -88,7 +88,7 @@ sidebar:
     HTML & CSS : 소개(introduction)의 VS Code 단축키 보기 
 </a>
 
-## address 관련 옵션
+## address 관련 옵션(a 태그의 href 속성)
 
 - 주소 및 연락처 정보를 포함
 
