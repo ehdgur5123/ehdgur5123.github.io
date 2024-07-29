@@ -24,3 +24,15 @@ sidebar:
 
 - 보안상 위험, 사용성 저하, 검색 최적화 제한, 브라우저에 무리 등의 사유로 **권장하지 않음**
 
+```html
+<iframe 
+    width="800" height="500" 
+    src="https://ehdgur5123.github.io/"
+    title="끄적끄적" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+```
+
+<iframe width="800" height="500" src="https://ehdgur5123.github.io/" title="끄적끄적" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
