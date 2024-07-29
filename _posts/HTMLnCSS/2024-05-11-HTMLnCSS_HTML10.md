@@ -66,19 +66,7 @@ sidebar:
 
 <br>
 
-<select name="lan" id="lan">
-    <optgroup label="컴퓨터 언어">
-        <option value="HTML">HTML</option>
-        <option value="CSS">CSS</option>
-        <option value="JAVA">자바</option>
-        <option value="C lan" selected >C 언어</option>
-    </optgroup>
-    <optgroup label="과일">
-        <option value="apple">사과</option>
-        <option value="orange">오렌지</option>
-        <option value="fruitS">과일소주</option>
-    </optgroup>
-</select>
+<select name="lan" id="lan"><optgroup label="컴퓨터 언어"><option value="HTML">HTML</option><option value="CSS">CSS</option><option value="JAVA">자바</option><option value="C lan" selected >C 언어</option></optgroup><optgroup label="과일"><option value="apple">사과</option><option value="orange">오렌지</option><option value="fruitS">과일소주</option></optgroup></select>
 
 <br>
 
@@ -111,14 +99,7 @@ sidebar:
 
 - `datalist`의 자식 태그로는 `option` 태그를 지정해주며, `option` 태그의 `value` 속성에 값을 입력
 
-<label for="job">현재 직업</label><br>
-    <input type="text" id="job" list="jobs">
-    <datalist id="jobs">
-        <option value="학생">
-        <option value="디자이너">
-        <option value="퍼블리셔">
-        <option value="개발자">
-    </datalist>
+<label for="job">현재 직업</label><br><input type="text" id="job" list="jobs"><datalist id="jobs"><option value="학생"><option value="디자이너"><option value="퍼블리셔"><option value="개발자"></datalist>
 
 ```html
 <label for="job">현재 직업</label><br>
