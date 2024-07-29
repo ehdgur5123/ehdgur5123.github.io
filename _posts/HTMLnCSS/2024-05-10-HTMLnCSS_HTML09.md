@@ -164,20 +164,24 @@ sidebar:
 
 - `checked` 속성은 초기에 체크되는 값
 
+- `name` 속성은 `radio` 타입에서 그룹의 역할을 함
+
+- `value` 속성은 실제로 넘겨지는 데이터 값으로, 아래 예제에서 `사과(텍스트 값)`를 선택하면 value 값인 `apple`이 제출됨
+
 <br>
 
 <form action="#">
-    <input type="checkbox" id="check" checked>
-    <label for="check">checkbox</label>
-    <br><br>
-    <input type="radio" name="fruit" id="fruit_apple" value="apple" checked>
-    <label for="fruit_apple">사과</label>
-    <input type="radio" name="fruit" id="fruit_orange" value="orange">
-    <label for="fruit_orange">오렌지</label><br>
-    <input type="radio" name="vege" id="v_tomato" value="tomato">
-    <label for="v_tomato">토마토</label>
-    <input type="radio" name="vege" id="v_carvage" value="carvage" checked>
-    <label for="v_carvage">양배추</label>
+    <input type="checkbox" id="check" checked>  
+    <label for="check">checkbox</label>  
+    <br><br>  
+    <input type="radio" name="fruit" id="fruit_apple" value="apple" checked>  
+    <label for="fruit_apple">사과</label>  
+    <input type="radio" name="fruit" id="fruit_orange" value="orange">  
+    <label for="fruit_orange">오렌지</label><br>  
+    <input type="radio" name="vege" id="v_tomato" value="tomato">  
+    <label for="v_tomato">토마토</label>  
+    <input type="radio" name="vege" id="v_carvage" value="carvage" checked>  
+    <label for="v_carvage">양배추</label>  
 </form>
 
 <br>
@@ -195,7 +199,7 @@ sidebar:
 
     <input type="radio" name="fruit" id="fruit_orange" value="orange">
     <label for="fruit_orange">오렌지</label>
-    <br>
+    <br>  
 
     <input type="radio" name="vege" id="v_tomato" value="tomato">
     <label for="v_tomato">토마토</label>
@@ -227,7 +231,11 @@ sidebar:
     - `video/*`는 "모든 비디오 파일"을 의미
 
     - `image/*`는 "모든 이미지 파일"을 
-    
+
+- `hidden` 타입은 전송할 데이터이지만, 사용자에게 굳이 보여주지 않을 데이터를 넣을 때 사용
+
+- `email` 타입은 이메일을 넣을 때 사용
+
 <br>
 
 <form action="#">
@@ -278,7 +286,7 @@ sidebar:
 
 - `value 속성` : 처음에 실제값을 넣음(placeholder 속성은 클릭 시 사라짐)
 
-- `autofocus 속성` : 초기 autofocus 속성값에 포커스가 되어 있음
+- `autofocus 속성` : 초기 autofocus 속성값에 포커스(커서)가 되어 있음
 
 - `readonly 속성` : 읽기만 가능, 입력은 불가하나 **submit(제출) 가능**
 
@@ -315,15 +323,16 @@ sidebar:
         <input
         type="text" name="dis" id="dis"
         placeholder="입력불가, 전송 안됨" disabled
-        >
-        <br><br>
-        <input type="radio" name="_fruit" id="_apple" value="apple" checked>
-        <label for="_apple">사과</label>
-        <input type="radio" name="_fruit" id="_grape" value="grape">
-        <label for="_grape">포도</label>
-        <input type="radio" name="_fruit" id="_orange" value="orange" disabled>
-        <label for="_orange">오렌지(품절)</label>
-    </fieldset>
+        >  
+        <br><br>  
+        <input type="radio" name="_fruit" id="_apple" value="apple" checked>  
+        <label for="_apple">사과</label>  
+        <input type="radio" name="_fruit" id="_grape" value="grape">  
+        <label for="_grape">포도</label>  
+        <input type="radio" name="_fruit" id="_orange" value="orange" disabled>  
+        <label for="_orange">오렌지(품절)</label>    
+    </fieldset><br>  
+    <button type="submit">제출</button>  
 </form>
 
 <br>
@@ -378,7 +387,9 @@ sidebar:
 
         <input type="radio" name="_fruit" id="_orange" value="orange" disabled>
         <label for="_orange">오렌지(품절)</label>
-    </fieldset>
+    </fieldset><br>  
+        
+    <button type="submit">제출</button>
 
 </form>
 ```

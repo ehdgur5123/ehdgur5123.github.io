@@ -91,6 +91,9 @@ HTML&CSS:
         url: "/posts/HTMLnCSS-09/"
       - title: "9. 사용자로부터 입력 받기 2"
         url: "/posts/HTMLnCSS-10/"
+      - title: "10. 사용자로부터 입력 받기 3"
+        url: "/posts/HTMLnCSS-11/"
+        
       
 
   # - title: "About"
