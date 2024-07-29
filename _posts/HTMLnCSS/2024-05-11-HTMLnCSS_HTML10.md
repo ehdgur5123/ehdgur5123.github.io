@@ -66,7 +66,7 @@ sidebar:
 
 <br>
 
-<select name="lan" id="lan"><optgroup label="컴퓨터 언어"><option value="HTML">HTML</option><option value="CSS">CSS</option><option value="JAVA">자바</option><option value="C lan" selected >C 언어</option></optgroup><optgroup label="과일"><option value="apple">사과</option><option value="orange">오렌지</option><option value="fruitS">과일소주</option></optgroup></select>
+<select name="lan" id="lan"><optgroup label="컴퓨터 언어"><option value="HTML">HTML</option><option value="CSS">CSS</option><option value="JAVA">자바</option><option value="C lan" selected >C 언어</option></optgroup><optgroup label="과일"><option value="apple">사과</option><option value="orange">오렌지</option><option value="fruitS">과일소주</option></optgroup></select> (마크다운에서 인식이 잘 안됨)
 
 <br>
 

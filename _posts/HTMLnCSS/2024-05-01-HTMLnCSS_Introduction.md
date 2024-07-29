@@ -16,6 +16,8 @@ sidebar:
 
 * 얄코의 제대로 파는 HTML&CSS 강의 : [인프런 강의(유료)](https://www.inflearn.com/)
 
+* HTML MDN 문서 : [HTML MDN 문서(링크)](https://developer.mozilla.org/ko/docs/Web/HTML)
+
 <br>
 
 ## VS Code 단축키
