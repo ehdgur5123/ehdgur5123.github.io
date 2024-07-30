@@ -116,6 +116,7 @@ sidebar:
         font-weight: bold;
         color: darkorange;
     }
+    ```
 
 2. 태그 선택자 : `태그명`
 
@@ -125,6 +126,7 @@ sidebar:
     p {
        color: aqua; 
     }
+    ```
 
 3. class 선택자 : `.클래스명`
 

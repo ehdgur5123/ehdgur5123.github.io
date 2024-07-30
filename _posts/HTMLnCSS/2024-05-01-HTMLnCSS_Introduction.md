@@ -18,6 +18,10 @@ sidebar:
 
 * HTML MDN 문서 : [HTML MDN 문서(링크)](https://developer.mozilla.org/ko/docs/Web/HTML)
 
+* CSS 선택자 연습 사이트 : [CSS 선택자 연습 사이트(링크)](https://flukeout.github.io/)
+
+* CSS 선택자 연습 사이트(답안지) : [newstroyblog(링크)](https://newstroyblog.tistory.com/465#CSS%20%ED%95%99%EC%8A%B5%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EC%86%8C%EA%B0%9C-1)
+
 <br>
 
 ## VS Code 단축키
