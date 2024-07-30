@@ -1,0 +1,29 @@
+/* 모든 요소 선택 */
+* {
+    font-weight: bold;
+    color: darkorange;
+}
+
+p {
+    color: aqua;
+}
+
+.blue {
+    color: tomato;
+}
+
+#red {
+    color: blueviolet;
+}
+
+p.blue {
+    color :darkgrey;
+}
+
+p.blue.dark {
+    color: aliceblue;
+}
+
+p.blue#red {
+   color: crimson;     
+}
