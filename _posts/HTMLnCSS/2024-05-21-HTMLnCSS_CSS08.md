@@ -4,6 +4,7 @@ title: "HTML & CSS : 배경 꾸미기"
 categories: HTML&CSS
 tag: [CSS]
 permalink : /posts/HTMLnCSS-21/
+classes: custom-style
 toc: true
 author_profile: false
 sidebar:
