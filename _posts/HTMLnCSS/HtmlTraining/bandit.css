@@ -1,0 +1,14 @@
+#div02, #div03{
+    border: 2px gray dotted;
+    margin: 2px;
+    width: 30vw;
+    height: 50vh;
+    overflow: auto;
+    display: inline-block;
+}
+
+#div01{
+    width: 66vw;
+    height: 50vh;
+    margin: auto;
+}
