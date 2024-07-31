@@ -16,6 +16,9 @@ sidebar:
 
 * 혼자공부하는 컴퓨터구조+운영체제 강의 : [한빛미디어(youtube)](https://www.youtube.com/watch?v=bls_GjX-4U8&list=PLVsNizTWUw7FCS83JhC1vflK8OcLRG0Hl)
 
+- [참조 블로그(링크)](https://velog.io/@mmodestaa/%ED%98%BC%EC%9E%90-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-Section-10.-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B0%9C%EC%9A%94)
+
+
 ## 운영체제(Operating System)
 
 * **운영체제(Operating System)**

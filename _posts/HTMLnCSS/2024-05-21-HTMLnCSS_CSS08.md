@@ -4,7 +4,7 @@ title: "HTML & CSS : 배경 꾸미기"
 categories: HTML&CSS
 tag: [CSS]
 permalink : /posts/HTMLnCSS-21/
-classes: custom-style
+#classes: custom-style
 toc: true
 author_profile: false
 sidebar:
@@ -65,20 +65,3 @@ div{
     background-size: cover;  /*블록요소에 맞게 이미지를 꽉 채움*/
 }
 ```
-
-
-### 테스트
-
-<div id="div01">
-    <div id="div02">
-    ```css
-    div{
-        background-size: auto;   /*기본사이즈*/
-        background-size: 10%;   /*원래 사이즈의 10%*/    
-    }
-    ```
-    </div>
-    <div id="div03">
-    adfafaf
-    </div>
-</div>

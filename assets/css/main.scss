@@ -8,8 +8,11 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+/* 테스트용 CSS 입니다.
+
 .custom-style {
-    
+
     h2 {
         color: cornflowerblue;
         border-bottom: 2px solid gray;
@@ -32,3 +35,5 @@ search: false
     }
 
 }
+    
+*/

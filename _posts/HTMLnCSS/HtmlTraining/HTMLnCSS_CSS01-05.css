@@ -1,0 +1,39 @@
+.head {
+    border: 2px solid black;
+    height: 20vh;
+    width: 60vw;
+    background-color: blue;
+}
+
+.body {
+    border: 2px solid black;
+    height: 20vh;
+    width: 60vw;
+    background-color: yellowgreen;
+    margin: auto;
+}
+
+.foot {
+    border: 2px solid black;
+    height: 20vh;
+    width: 60vw;
+    background-color: gray;
+}
+
+#left {
+    border: 2px solid black;
+    height: 100%;
+    margin: auto;
+    width: 40%;
+    background-color: red;
+    display: inline-block;
+}
+
+#right {
+    border: 2px solid black;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    display: inline-block;
+}
