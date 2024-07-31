@@ -107,6 +107,12 @@ HTML&CSS:
         url: "/posts/HTMLnCSS-17/"  
       - title: "18. 인라인 요소와 블록 요소"
         url: "/posts/HTMLnCSS-18/"   
+      - title: "19. 박스 모델 1"
+        url: "/posts/HTMLnCSS-19/"   
+      - title: "20. 박스 모델 2"
+        url: "/posts/HTMLnCSS-20/"  
+      - title: "21. 배경 꾸미기"
+        url: "/posts/HTMLnCSS-21/"    
         
 
   # - title: "About"
