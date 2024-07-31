@@ -103,6 +103,10 @@ HTML&CSS:
         url: "/posts/HTMLnCSS-15/"   
       - title: "16. 문단과 목록 스타일"
         url: "/posts/HTMLnCSS-16/"   
+      - title: "17. 색 표현하기"
+        url: "/posts/HTMLnCSS-17/"  
+      - title: "18. 인라인 요소와 블록 요소"
+        url: "/posts/HTMLnCSS-18/"   
         
 
   # - title: "About"
