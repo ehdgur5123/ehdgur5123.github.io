@@ -65,3 +65,32 @@ div{
     background-size: cover;  /*블록요소에 맞게 이미지를 꽉 채움*/
 }
 ```
+
+## 배경에 그라데이션 넣기
+
+- `background` 속성의 `linear-gradient` 옵션 
+
+```css 
+div {
+  width: 200px; height: 200px;
+  background: 
+    linear-gradient(217deg, red, transparent 70%),
+    linear-gradient(127deg, lime, transparent 70%),
+    linear-gradient(336deg, blue, transparent 70%);
+}
+```
+
+- 추가적인 그라데이션 정보
+
+    - [gradient 전반](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient)
+
+    - [linear-gradient 더 보기](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient())
+
+    - [radial-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient())
+
+    - [conic-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient())
+
+    - [repeating-linear-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient())
+
+    - [repeating-radial-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient())
+

@@ -113,6 +113,12 @@ HTML&CSS:
         url: "/posts/HTMLnCSS-20/"  
       - title: "21. 배경 꾸미기"
         url: "/posts/HTMLnCSS-21/"    
+      - title: "22. 포지셔닝"
+        url: "/posts/HTMLnCSS-22/"  
+      - title: "23. 요소들을 감추는 방법들"
+        url: "/posts/HTMLnCSS-23/"  
+      - title: "24. Flex 레이아웃"
+        url: "/posts/HTMLnCSS-24/"  
         
 
   # - title: "About"
