@@ -11,13 +11,14 @@ search: false
 
 .taxonomy__index > li {
     color:salmon;
+    font-size: 1em;
 }
 
 .list__item {
     font-size: 0.9em;
 }
 
-.archive__subtitle {
+h2.archive__subtitle {
     margin: 1.414em 0 0.5em;
     padding-bottom: 0.5em;
     font-size: 2em;
