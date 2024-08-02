@@ -126,8 +126,12 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ehdgur5123"
     - label: "인프런(inflearn)"
-      icon: "./assets/images/TheOthers/inflearn.png"
+      icon: "fa-duotone fa-solid fa-leaf"
       url: "https://www.inflearn.com/"    
+    - label: "font icon"
+      icon: "fa-sharp fa-regular fa-font-awesome"
+      url: "https://fontawesome.com/icons"  
+      
 
 # Site Footer
 footer:
