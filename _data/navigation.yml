@@ -61,6 +61,10 @@ OperatingSystem:
         url: "/posts/OS-02/"   
       - title: "3. 프로세스 Part.02"
         url: "/posts/OS-03/"  
+      - title: "4. 스레드"
+        url: "/posts/OS-04/"  
+      - title: "5. CPU 스케줄링"
+        url: "/posts/OS-05/"     
       - title: "15. 파일시스템 관리 Part.01"
         url: "/posts/OS-15/" 
       - title: "16. 파일시스템 관리 Part.02"
@@ -119,6 +123,10 @@ HTML&CSS:
         url: "/posts/HTMLnCSS-23/"  
       - title: "24. Flex 레이아웃"
         url: "/posts/HTMLnCSS-24/"  
+      - title: "25. 상단의 태그들"
+        url: "/posts/HTMLnCSS-25/" 
+      - title: "26. 모두가 이용할 수 있는 웹사이트"
+        url: "/posts/HTMLnCSS-26/" 
         
 
   # - title: "About"

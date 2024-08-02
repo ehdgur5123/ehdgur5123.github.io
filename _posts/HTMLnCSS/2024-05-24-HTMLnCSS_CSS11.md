@@ -84,7 +84,7 @@ sidebar:
 2. justify-content 속성의 옵션과 같음(flex-, space- 등)
 
 
-### gep 속성
+### gap 속성
 
 - 요소들의 간격을 띄어주는데에 사용(단위 : px, em(%) 등)
 
