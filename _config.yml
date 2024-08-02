@@ -116,8 +116,8 @@ author:
   name             : "Dong Hyck"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **poor** person."
-  location         : "Road"
-  email            : "ehdgur3506@naver.com"
+  #location         : "Road"
+  #email            : "ehdgur3506@naver.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -125,6 +125,10 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ehdgur5123"
+  sidebar:
+        nav: "MarkDown"
+        nav: "OperatingSystem"
+        nav: "HTML&CSS"
 
 # Site Footer
 footer:
