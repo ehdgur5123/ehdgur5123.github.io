@@ -9,6 +9,21 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
+.taxonomy__index > li {
+    color:salmon;
+}
+
+.list__item {
+    font-size: 0.9em;
+}
+
+.archive__subtitle {
+    margin: 1.414em 0 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+    color: #393e46;
+    border-bottom: 1px solid #cecfd1;
+  }
 /* 테스트용 CSS 입니다.
 
 .custom-style {

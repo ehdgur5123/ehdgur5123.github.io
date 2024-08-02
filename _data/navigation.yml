@@ -127,6 +127,11 @@ HTML&CSS:
         url: "/posts/HTMLnCSS-25/" 
       - title: "26. 모두가 이용할 수 있는 웹사이트"
         url: "/posts/HTMLnCSS-26/" 
+      - title: "27. 용도에 따른 태그 사용하기"
+        url: "/posts/HTMLnCSS-27/" 
+
+
+        
         
 
   # - title: "About"
