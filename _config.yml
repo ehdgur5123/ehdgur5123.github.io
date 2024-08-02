@@ -125,10 +125,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ehdgur5123"
-  sidebar:
-        nav: "MarkDown"
-        nav: "OperatingSystem"
-        nav: "HTML&CSS"
+    - label: "인프런(inflearn)"
+      icon: "https://cdn.inflearn.com/dist/icon-512x512.png"
+      url: "https://www.inflearn.com/"    
 
 # Site Footer
 footer:
