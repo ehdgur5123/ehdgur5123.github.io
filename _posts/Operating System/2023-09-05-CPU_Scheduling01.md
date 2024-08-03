@@ -15,7 +15,7 @@ sidebar:
 
 ##  CPU 스케줄링(CPU Scheduling)
 
-- 프로세스들에게 공정하고 합리적으로 CPU 자원을 배분하는 것
+프로세스들에게 공정하고 합리적으로 CPU 자원을 배분하는 것
 
 ### 프로세스 우선순위
 
@@ -50,4 +50,19 @@ sidebar:
 - **준비 큐(ready queue)** : CPU를 이용하고 싶은 프로세스들이 서는 줄
 
 - **대기 큐(waiting queue)** : 입출력장치를 이용하기 위해 대기 상태에 접어든 프로세스들이 서는 줄
+
+![image](../../assets/images/OperatingSystem/CPU_Scheduling01-2.png)
+
+#### 준비 큐(ready queue)
+
+운영체제는 PCB들이 큐에 삽입된 순서대로 프로세스를 실행하되, 그중 우선순위가 높은 프로세스를 먼저 실행
+
+#### 대기 큐(waiting queue)
+
+입출력 장치별로 대기 큐에 삽입되어 입출력 작업을 완료하고, 작업이 완료된 PCB는 준비 큐로 이동
+
+![image](../../assets/images/OperatingSystem/CPU_Scheduling01-3.png)
+
+
+### 선점형과 비선점형 스케줄링
 

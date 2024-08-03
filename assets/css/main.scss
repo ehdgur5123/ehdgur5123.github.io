@@ -8,11 +8,12 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-
+// 카테고리 및 태그의 색상
 .taxonomy__index > li {
     color:salmon;
     font-size: 1em;
 }
+
 
 .list__item {
     font-size: 0.9em;
@@ -28,18 +29,19 @@ h2.archive__subtitle {
 
 .custom-style {
 
-    .page__content > h2 {
+    .page__content > h1, h2, h3, h4, h5, h6 {
         display: inline-block;
-        background-color: #f6e199;
         font-family: 'Courier New', Courier, monospace;
         padding: 1px;
+
+        h1{background-color: tomato}
+        h2{background-color: #f6e199;}
+        h3{background-color:greenyellow;}
+        h4{background-color:cornflowerblue;}
+        h5{background-color: #9b5391;}
+        h6{background-color: #701878;}    
+
     }
-    
-    .page__content > h3 {
-        display: inline-block;
-        background-color:greenyellow;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 1px;
-    }
+
 }
     
