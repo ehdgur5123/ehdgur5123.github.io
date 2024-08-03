@@ -28,8 +28,13 @@ h2.archive__subtitle {
 
 .custom-style {
 
-    h2:not(.page__related) {
+    .page__content > h2 {
         background-color: #f6e199;
+    }
+
+    .page__content > img {
+        max-width: 80%;
+        height: auto;
     }
 }
     
