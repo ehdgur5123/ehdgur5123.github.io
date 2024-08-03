@@ -63,8 +63,13 @@ h2.archive__subtitle {
 }
 
 .page__content > img {
-    max-height: 80%;
-    min-height: 80%;
+    max-width: 80%;
+    min-width: 80%;
+    height: auto;
+    vertical-align: middle;
+    border: 1px solid black;
 }
   
+    
+
     
