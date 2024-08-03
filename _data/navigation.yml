@@ -44,7 +44,7 @@ OperatingSystem:
         url: "/posts/OS-03/"  
       - title: "4. 스레드"
         url: "/posts/OS-04/"  
-      - title: "5. CPU 스케줄링"
+      - title: "5. CPU 스케줄링 Part.01"
         url: "/posts/OS-05/"     
       - title: "15. 파일시스템 관리 Part.01"
         url: "/posts/OS-15/" 
