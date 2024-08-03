@@ -79,15 +79,12 @@ h2.archive__subtitle {
         border: 1px solid black;
     }
 
-    @font-face {
-        font-family: 'PeoplefirstNeatLoudTTF';
-        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-2@1.0/PeoplefirstNeatLoudTTF.woff2') format('woff2');
-        font-weight: normal;
-        font-style: normal;
+    .page__content > blockquote {
+        margin-inline-end: 1em;
+        padding-inline: 0.3em;
+        font-style: italic;
+        border-inline-start: 0.25em solid #0092ca;
     }
-
-
-
 }
 
 
