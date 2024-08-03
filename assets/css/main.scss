@@ -28,16 +28,18 @@ h2.archive__subtitle {
 
 .custom-style {
 
-    .page__content > h2:not(a) {
+    .page__content > h2 {
         display: inline-block;
         background-color: #f6e199;
         font-family: 'Courier New', Courier, monospace;
+        padding: 1px;
     }
     
-    .page__content > h3:not(a) {
+    .page__content > h3 {
         display: inline-block;
         background-color:greenyellow;
         font-family: 'Courier New', Courier, monospace;
+        padding: 1px;
     }
 }
     
