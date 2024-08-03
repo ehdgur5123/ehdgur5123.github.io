@@ -27,21 +27,44 @@ h2.archive__subtitle {
     border-bottom: 1px solid #cecfd1;
   }
 
-.custom-style {
-
-    .page__content > h1, h2, h3, h4, h5, h6 {
-        display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 1px;
-
-        h1{background-color: tomato}
-        h2{background-color: #f6e199;}
-        h3{background-color:greenyellow;}
-        h4{background-color:cornflowerblue;}
-        h5{background-color: #9b5391;}
-        h6{background-color: #701878;}    
-
-    }
-
+.page__content > h1,
+.page__content > h2,
+.page__content > h3,
+.page__content > h4,
+.page__content > h5,
+.page__content > h6 {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1px;
 }
+
+.page__content > h1 {
+    background-color: tomato;
+}
+
+.page__content > h2 {
+    background-color: #f6e199;
+}
+
+.page__content > h3 {
+    background-color: greenyellow;
+}
+
+.page__content > h4 {
+    background-color: cornflowerblue;
+}
+
+.page__content > h5 {
+    background-color: #9b5391;
+}
+
+.page__content > h6 {
+    background-color: #701878;
+}
+
+.page__content > img {
+    max-height: 80%;
+    min-height: 80%;
+}
+  
     
