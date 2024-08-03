@@ -43,5 +43,11 @@ sidebar:
 
 - PCB에 프로세스의 우선순위가 명시되어 있지만, 운영체제가 직접 PCB를 보고 우선순위를 결정하는 것은 비효율적
 
-- 스케줄링 큐(scheduling queue) 방식을 통해 작업별로 프로세스들을 줄을 세워 관리
+- 스케줄링 큐(scheduling queue) 방식을 통해 작업별로 프로세스들을 줄(큐)을 세워 관리
+
+![image](../../assets/images/OperatingSystem/CPU_Scheduling01-1.png)
+
+- **준비 큐(ready queue)** : CPU를 이용하고 싶은 프로세스들이 서는 줄
+
+- **대기 큐(waiting queue)** : 입출력장치를 이용하기 위해 대기 상태에 접어든 프로세스들이 서는 줄
 
