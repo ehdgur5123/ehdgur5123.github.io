@@ -26,34 +26,11 @@ h2.archive__subtitle {
     border-bottom: 1px solid #cecfd1;
   }
 
-.page__content > a{
-    color: blue;
-}
-/* 테스트용 CSS 입니다.
-
 .custom-style {
 
-    h2 {
-        color: cornflowerblue;
-        border-bottom: 2px solid gray;
+    h2:not(.page__related) {
+        background-color: #f6e199;
     }
-
-
-    #div02, #div03{
-        border: 2px gray dotted;
-        margin: 2px;
-        width: 30vw;
-        height: 50vh;
-        overflow: auto;
-        display: inline-block;
-    }
-
-    #div01{
-        width: 66vw;
-        height: 50vh;
-        margin: auto;
-    }
-
 }
     
 */

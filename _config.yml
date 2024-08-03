@@ -131,6 +131,9 @@ author:
     - label: "font icon"
       icon: "fa-sharp fa-regular fa-font-awesome"
       url: "https://fontawesome.com/icons"  
+    - label: "Emojipedia"
+      icon: "fa-light fa-face-smile"
+      url: "https://emojipedia.org/"  
       
 
 # Site Footer
