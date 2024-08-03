@@ -46,6 +46,8 @@ OperatingSystem:
         url: "/posts/OS-04/"  
       - title: "5. CPU 스케줄링 Part.01"
         url: "/posts/OS-05/"     
+      - title: "6. CPU 스케줄링 Part.02"
+        url: "/posts/OS-06/" 
       - title: "15. 파일시스템 관리 Part.01"
         url: "/posts/OS-15/" 
       - title: "16. 파일시스템 관리 Part.02"
