@@ -83,6 +83,7 @@ div {
     margin: auto; /*좌우 여백 동일하게*/
     margin: 48px auto; /*위아래 48px / 좌우 여백 동일*/
 }
+```
 
 ### padding 
 
