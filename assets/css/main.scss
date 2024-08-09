@@ -85,6 +85,16 @@ h2.archive__subtitle {
         font-style: italic;
         border-inline-start: 0.25em solid #0092ca;
     }
+
+    .page__content > strong {
+        color: crimson;
+        font-weight: bold;
+    }
+
+    .page__content > em {
+        color: mediumblue;
+        font-weight: bold;
+    }
 }
 
 

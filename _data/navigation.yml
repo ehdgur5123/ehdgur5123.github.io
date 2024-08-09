@@ -120,6 +120,9 @@ Linux:
     children:
       - title: "1. 운영체제 개요 1"
         url: "/posts/Linux-01/" 
+      - title: "1. 운영체제 개요 2"
+        url: "/posts/Linux-02/" 
+
 
 
        
