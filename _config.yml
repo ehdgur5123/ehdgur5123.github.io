@@ -310,6 +310,7 @@ defaults:
         nav: "MarkDown"
         nav: "OperatingSystem"
         nav: "HTML&CSS"
+        nav: "Linux"
 
 
 date_format: "%Y-%m-%d"

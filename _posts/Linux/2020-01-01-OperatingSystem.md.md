@@ -1,3 +1,18 @@
+---
+layout: single
+title: "리눅스(Linux) : 운영체제 개요 1"
+categories: Linux
+tag: [Linux, Operating System]
+permalink : /posts/Linux-01/
+classes : custom-style
+toc: true
+author_profile: false
+sidebar:
+  nav: "Linux"
+---
+
+<hr>
+
 # 운영체제의 개요
 
 ## 운영체제의 정의
@@ -84,4 +99,12 @@
 
 1. 프로세스, 메모리, 장치 I/O, 파일 시스템 등 리소스 관리
 
-2. 자원의 효율적인 
+2. 자원의 효율적인 사용을 위한 스케줄링 기능
+
+3. 하드웨어 관리와 네트워크 제어 기능
+
+4. 데이터 관리 및 자원 공유 기능
+
+5. 자원 보호, 오류 검사, 오류 복구 기능 등
+
+6. 자원의 유휴 시간을 최소화 하기 위해 물리적 컴퓨터에 가상의 컴퓨터를 여러 대 실행할 수 있는 가상화 기능

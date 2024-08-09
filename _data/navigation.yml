@@ -115,6 +115,12 @@ HTML&CSS:
       - title: "28. 가독성을 위한 이름 짓기"
         url: "/posts/HTMLnCSS-28/" 
 
+  Linux:
+  - title: "Linux List"
+    children:
+      - title: "1. 운영체제 개요 1"
+        url: "/posts/Linux-01/" 
+
 
        
         
