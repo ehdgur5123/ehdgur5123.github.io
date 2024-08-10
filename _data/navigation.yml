@@ -118,6 +118,9 @@ HTML&CSS:
         url: "/posts/HTMLnCSS-27/" 
       - title: "28. 가독성을 위한 이름 짓기"
         url: "/posts/HTMLnCSS-28/" 
+      - title: "29. SVG 벡터 그래픽"
+        url: "/posts/HTMLnCSS-29/" 
+        
 
 Linux:
   - title: "Linux List"
