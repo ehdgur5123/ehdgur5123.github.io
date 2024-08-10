@@ -1,0 +1,85 @@
+---
+layout: single
+title: "HTML & CSS : 오디오와 동영상"
+categories: HTML&CSS
+tag: [HTML]
+permalink : /posts/HTMLnCSS-30/
+toc: true
+author_profile: false
+sidebar:
+  nav: "HTML&CSS"
+---
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://showcases.yalco.kr/html-css/01-06/table.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>오디오</h1>
+
+    <figure>
+        <figcaption class="sr-only">
+            파도소리
+        </figcaption>
+
+        <audio src="https://t1.daumcdn.net/cfile/tistory/995157385D264DF60C" controls></audio>
+
+    </figure>
+
+    <br>
+
+    <h2>오디오 요소의 속성</h2>
+
+    <table>
+        <thead>
+        <tr>
+        <th align="left">속성</th>
+        <th align="left">설명</th>
+        <th align="left">비고</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td align="left"><code>src</code></td>
+        <td align="left">미디어 파일 위치</td>
+        <td align="left"><code>source</code> 태그로 대체 가능</td>
+        </tr>
+        <tr>
+        <td align="left"><code>controls</code></td>
+        <td align="left">제어 인터페이스</td>
+        <td align="left"></td>
+        </tr>
+        <tr>
+        <td align="left"><code>autoplay</code></td>
+        <td align="left">자동재생</td>
+        <td align="left">일반적으로 브라우저에서 막아놓음</td>
+        </tr>
+        <tr>
+        <td align="left"><code>loop</code></td>
+        <td align="left">반복재생</td>
+        <td align="left"></td>
+        </tr>
+        </tbody>
+        </table>
+
+    <br>
+
+    <h1>동영상</h1>
+
+    <figure>
+        <figcaption class="sr-only">파도치는 영상</figcaption>
+
+        <video
+            style="height: 40%;"
+			src="https://videos.pexels.com/video-files/1918465/1918465-uhd_2560_1440_24fps.mp4"
+			controls>
+		</video>
+    </figure>
+
+</body>
+</html>
