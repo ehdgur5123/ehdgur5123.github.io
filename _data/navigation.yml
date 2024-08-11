@@ -107,8 +107,10 @@ Linux:
 JavaScript:
   - title: "JavaScript List"
     children:
-        - title: "1. 자바 스크립트 Part01"
+        - title: "1. 콘솔에 데이터 출력하기"
           url: "/posts/JavaScript-01/" 
+        - title: "2. 문자열 연산자"
+          url: "/posts/JavaScript-02/"
 
 
 
