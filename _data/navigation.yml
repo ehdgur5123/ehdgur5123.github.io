@@ -6,32 +6,6 @@ main:
     url: /tags/
   - title: "Search"
     url: /search/    
-
-MarkDown:
-  - title: "Mark Down List"
-    children:
-      - title: "1. 소개(Introduction)"
-        url: "/posts/Markdown-01/"
-      - title: "2. 제목(Header)"
-        url: "/posts/Markdown-02/" 
-      - title: "3. 강조(Emphasis)"
-        url: "/posts/Markdown-03/"   
-      - title: "4. 색상(Color)"
-        url: "/posts/Markdown-04/"   
-      - title: "5. 인용문(Block Quote)"
-        url: "/posts/Markdown-05/"  
-      - title: "6. 목록(List)"
-        url: "/posts/Markdown-06/"    
-      - title: "7. 링크(Link)"
-        url: "/posts/Markdown-07/"    
-      - title: "8. 이미지(Image)"
-        url: "/posts/Markdown-08/"    
-      - title: "9. 테이블(Table)"
-        url: "/posts/Markdown-09/" 
-      - title: "10. 코드 블록(Code Block)"
-        url: "/posts/Markdown-10/" 
-      - title: "11. 기타(The Others)"
-        url: "/posts/Markdown-11/"   
         
 OperatingSystem:
   - title: "Operating System List"
@@ -130,6 +104,12 @@ Linux:
       - title: "1. 운영체제 개요 2"
         url: "/posts/Linux-02/" 
 
+JavaScript:
+  - title: "JavaScript List"
+    children:
+        - title: "1. 자바 스크립트 Part01"
+          url: "/posts/JavaScript-01/" 
+
 
 
        
@@ -143,3 +123,29 @@ Linux:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+MarkDown:
+- title: "Mark Down List"
+  children:
+    - title: "1. 소개(Introduction)"
+      url: "/posts/Markdown-01/"
+    - title: "2. 제목(Header)"
+      url: "/posts/Markdown-02/" 
+    - title: "3. 강조(Emphasis)"
+      url: "/posts/Markdown-03/"   
+    - title: "4. 색상(Color)"
+      url: "/posts/Markdown-04/"   
+    - title: "5. 인용문(Block Quote)"
+      url: "/posts/Markdown-05/"  
+    - title: "6. 목록(List)"
+      url: "/posts/Markdown-06/"    
+    - title: "7. 링크(Link)"
+      url: "/posts/Markdown-07/"    
+    - title: "8. 이미지(Image)"
+      url: "/posts/Markdown-08/"    
+    - title: "9. 테이블(Table)"
+      url: "/posts/Markdown-09/" 
+    - title: "10. 코드 블록(Code Block)"
+      url: "/posts/Markdown-10/" 
+    - title: "11. 기타(The Others)"
+      url: "/posts/Markdown-11/"   
