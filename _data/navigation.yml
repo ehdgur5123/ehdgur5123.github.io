@@ -111,6 +111,8 @@ JavaScript:
           url: "/posts/JavaScript-01/" 
         - title: "2. 문자열 연산자"
           url: "/posts/JavaScript-02/"
+        - title: "3. 숫자 관련 연산자"
+          url: "/posts/JavaScript-03/"
 
 
 
