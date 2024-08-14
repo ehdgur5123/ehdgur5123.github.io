@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "1. HTML 개요"
-categories: HTML
-tag: [HTML]
-permalink : /posts/HTML-01/
+title: "0. HTML 개요"
+categories: HTML&CSS
+tag: [HTML, CSS, JavaScript]
+permalink : /posts/HTMLnCSS-00/
 toc: true
 author_profile: false
 sidebar:
-  nav: "HTML"
+  nav: "HTML&CSS"
 ---
 
 <hr>
@@ -44,4 +44,4 @@ sidebar:
 - 예를 들어, `<header>` 태그는 페이지의 머리말을, `<footer>` 태그는 바닥글을 나타내는 데 사용
 
 
-![image](../../assets/images/HTML/HTML-01-01.png)
+![image](../../assets/images/HTMLnCSS/HTMLnCSS-00-01.png)

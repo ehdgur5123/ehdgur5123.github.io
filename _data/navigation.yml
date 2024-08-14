@@ -36,8 +36,10 @@ OperatingSystem:
 HTML:
   - title: "HTML List"
     children:
-      - title: "1. HTML 소개"
+      - title: "1. HTML 개요"
         url: "/posts/HTML-01/" 
+      - title: "2. HTML 요소 목록"
+        url: "/posts/HTML-02/" 
       
 HTML&CSS:
   - title: "HTML&CSS List"
