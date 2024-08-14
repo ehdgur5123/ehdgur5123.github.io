@@ -32,6 +32,12 @@ OperatingSystem:
         url: "/posts/OS-16/"   
       - title: "17. 파일시스템 관리 Part.03"
         url: "/posts/OS-17/"  
+
+HTML:
+  - title: "HTML List"
+    children:
+      - title: "1. HTML 소개"
+        url: "/posts/HTML-01/" 
       
 HTML&CSS:
   - title: "HTML&CSS List"
