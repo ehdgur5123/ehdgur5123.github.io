@@ -46,10 +46,17 @@ h2.archive__subtitle {
 
     .page__content p {
         font-family: "Hi Melody", sans-serif;
+        font-size: 1.2rem;
     }
 
-    .page__content li {
+    .page__content ol > li {
         font-family: "Hi Melody", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .page__content ul > li {
+        font-family: "Hi Melody", sans-serif;
+        font-size: 1.2rem;
     }
 
     .page__content p > img {
