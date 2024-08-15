@@ -40,6 +40,9 @@ HTML:
         url: "/posts/HTML-01/" 
       - title: "2. HTML 요소 목록"
         url: "/posts/HTML-02/" 
+      - title: "3. HTML 속성 목록"
+        url: "/posts/HTML-03/" 
+
       
 HTML&CSS:
   - title: "HTML&CSS List"
