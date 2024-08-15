@@ -8,7 +8,7 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle&display=swap');
 
   
 // 카테고리 및 태그의 색상
@@ -38,10 +38,14 @@ h2.archive__subtitle {
     .page__content > h5,
     .page__content > h6 {
         color: rgb(20, 44, 118);
-        font-family: "Gugi", sans-serif;
+        font-family: "Black Han Sans", sans-serif;
         border-bottom: solid rgb(20, 44, 118);
         margin-top: 2em;
         margin-bottom: 1em;
+    }
+
+    .page__content p {
+        font-family: "Dongle", sans-serif;
     }
 
     .page__content p > img {
