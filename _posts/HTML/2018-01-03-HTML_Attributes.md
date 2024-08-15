@@ -4,6 +4,7 @@ title: "3. HTML 속성 목록"
 categories: HTML
 tag: [HTML]
 permalink : /posts/HTML-03/
+classes: html_attributes
 toc: true
 author_profile: false
 sidebar:
