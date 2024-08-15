@@ -8,11 +8,9 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
   
-
-
 // 카테고리 및 태그의 색상
 .taxonomy__index > li {
     color:salmon;
@@ -40,8 +38,8 @@ h2.archive__subtitle {
     .page__content > h5,
     .page__content > h6 {
         color: rgb(20, 44, 118);
-        font-family: "Radio Canada Big", sans-serif;
-        border-bottom: rgb(20, 44, 118);
+        font-family: "Gugi", sans-serif;
+        border-bottom: solid rgb(20, 44, 118);
         margin-top: 2em;
         margin-bottom: 1em;
     }
