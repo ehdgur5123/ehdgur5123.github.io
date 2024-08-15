@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "6. CPU 스케줄링 Part.02"
+title: "6) CPU 스케줄링 Part.02"
 categories: OperatingSystem
 tag: [Operating System, CPU Scheduling]
 permalink : /posts/OS-06/

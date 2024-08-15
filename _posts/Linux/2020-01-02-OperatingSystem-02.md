@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "리눅스(Linux) : 운영체제 개요 2"
+title: "2) 운영체제 개요 2"
 categories: Linux
 tag: [Linux, Operating System]
 permalink : /posts/Linux-02/

@@ -14,7 +14,6 @@ search: false
     font-size: 1em;
 }
 
-
 .list__item {
     font-size: 0.9em;
 }
@@ -25,50 +24,19 @@ h2.archive__subtitle {
     font-size: 2em;
     color: #393e46;
     border-bottom: 1px solid #cecfd1;
-  }
+}
 
 .custom-style {
 
-    .page__content > h1{
+    .page__content > h1,
+    .page__content > h2,
+    .page__content > h3,
+    .page__content > h4,
+    .page__content > h5,
+    .page__content > h6 {
         display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
         padding: 1px;
-        background-color: darkorange;
-    }
-
-    .page__content > h2{
-        display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 1px;
-        background-color: tomato;
-    }
-
-    .page__content > h3{
-        display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 1px;
-        background-color: greenyellow;
-    }
-
-    .page__content > h4{
-        display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 1px;
-        background-color: cornflowerblue;
-    }
-
-    .page__content > h5{
-        display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 1px;
-        background-color: #f6e199;
-    }
-
-    .page__content > h6{
-        display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 1px;
-        background-color: #701878;
+        color: rgb(20, 44, 118);
     }
 
     .page__content p > img {

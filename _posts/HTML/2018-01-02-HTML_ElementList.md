@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "2. HTML 요소 목록"
+title: "2) HTML 요소 목록"
 categories: HTML
 tag: [HTML]
 permalink : /posts/HTML-02/

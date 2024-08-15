@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "1. HTML 개요"
+title: "1) HTML 개요"
 categories: HTML
 tag: [HTML]
 permalink : /posts/HTML-01/
