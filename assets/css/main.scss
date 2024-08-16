@@ -29,6 +29,8 @@ h2.archive__subtitle {
     border-bottom: 1px solid #cecfd1;
 }
 
+
+// custom-style 적용
 .custom-style {
 
     .page__content > h1,
@@ -92,6 +94,12 @@ h2.archive__subtitle {
     .page__content li > em {
         color: crimson;
         font-style: italic;
+    }
+
+    #img_center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
