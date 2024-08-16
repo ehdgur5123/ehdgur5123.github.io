@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "6) CPU 스케줄링 Part.02"
+title: "6\. CPU 스케줄링 Part.02"
 categories: OperatingSystem
 tag: [Operating System, CPU Scheduling]
 permalink : /posts/OS-06/
@@ -14,8 +14,6 @@ sidebar:
 <hr>
 
 ## CPU 스케줄링 알고리즘
-
-<div></div>
 
 ### 선입 선처리 스케줄링
 
@@ -95,4 +93,4 @@ sidebar:
 
   5. 즉, CPU 이용 시간이 길면 낮은 우선순위 큐로 이동시키고, 어떤 프로세스가 낮은 우선순위 큐에서 너무 오래 기다린다면 높은 우선순위 큐로 이동시킬 수 있는 알고리즘
 
-  ![image](../../assets/images/OperatingSystem/CPU_Scheduling02-3.png)
+![image](../../assets/images/OperatingSystem/CPU_Scheduling02-3.png)

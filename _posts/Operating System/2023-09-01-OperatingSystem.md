@@ -1,10 +1,11 @@
 ---
 layout: single
-title: "1) 운영체제 개요"
+title: "1\. 운영체제 개요"
 categories: OperatingSystem
 tag: [Operating System, kernel, system call]
 permalink : /posts/OS-01/
 toc: true
+classes: custom-style
 author_profile: false
 sidebar:
   nav: "OperatingSystem"
@@ -42,7 +43,7 @@ sidebar:
   * 사용자 모드에서 하드웨어를 제어하기 위해 커널 모드로 전환하는 방법
   * **소프트웨어 인터럽트**의 일종  
   
-  ![image](../../assets/images/OperatingSystem/OperatingSystem-1.png)
+![image](../../assets/images/OperatingSystem/OperatingSystem-1.png)
 
 * **운영체제의 핵심서비스**
   * 프로세스 관리

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "8) 프로세스 동기화 Part.02"
+title: "8\. 프로세스 동기화 Part.02"
 categories: OperatingSystem
 tag: [Operating System, Synchronization]
 permalink : /posts/OS-08/
@@ -14,8 +14,6 @@ sidebar:
 <hr>
 
 # 동기화 기법
-
-<div>  </div>
 
 ## 뮤텍스 락
 
@@ -136,6 +134,6 @@ signal() {
 
     5. x.signal() 호출을 통해 프로세스(p1)는 조건 변수 큐에서 빠져나와 모니터에 진입. 공유자원을 사용 
 
-    ![image](../../assets/images/OperatingSystem/Synchronization-02-3.png)
+![image](../../assets/images/OperatingSystem/Synchronization-02-3.png)
 
-    ![image](../../assets/images/OperatingSystem/Synchronization-02-4.png)
+![image](../../assets/images/OperatingSystem/Synchronization-02-4.png)

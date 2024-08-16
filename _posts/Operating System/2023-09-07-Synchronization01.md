@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "7) 프로세스 동기화 Part.01"
+title: "7\. 프로세스 동기화 Part.01"
 categories: OperatingSystem
 tag: [Operating System, Synchronization]
 permalink : /posts/OS-07/
