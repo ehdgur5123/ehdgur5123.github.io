@@ -13,11 +13,11 @@ sidebar:
 
 <hr>
 
-##  CPU 스케줄링(CPU Scheduling)
+#  CPU 스케줄링(CPU Scheduling)
 
 프로세스들에게 공정하고 합리적으로 CPU 자원을 배분하는 것
 
-### 프로세스 우선순위
+## 프로세스 우선순위
 
 - CPU는 우선순위가 높은 프로세스부터 실행시킨다.
 
@@ -40,38 +40,56 @@ sidebar:
 
 - 각 프로세스의 PCB에 우선순위를 명시
 
-### 스케줄링 큐
+## 스케줄링 큐
 
 - PCB에 프로세스의 우선순위가 명시되어 있지만, 운영체제가 직접 PCB를 보고 우선순위를 결정하는 것은 비효율적
 
 - 스케줄링 큐(scheduling queue) 방식을 통해 작업별로 프로세스들을 줄(큐)을 세워 관리
 
-![image](../../assets/images/OperatingSystem/CPU_Scheduling01-1.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/CPU_Scheduling01-1.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
 - **준비 큐(ready queue)** : CPU를 이용하고 싶은 프로세스들이 서는 줄
 
 - **대기 큐(waiting queue)** : 입출력장치를 이용하기 위해 대기 상태에 접어든 프로세스들이 서는 줄
 
-![image](../../assets/images/OperatingSystem/CPU_Scheduling01-2.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/CPU_Scheduling01-2.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
-#### 준비 큐(ready queue)
+### 준비 큐(ready queue)
 
 운영체제는 PCB들이 큐에 삽입된 순서대로 프로세스를 실행하되, 그중 우선순위가 높은 프로세스를 먼저 실행
 
-#### 대기 큐(waiting queue)
+### 대기 큐(waiting queue)
 
 입출력 장치별로 대기 큐에 삽입되어 입출력 작업을 완료하고, 작업이 완료된 PCB는 준비 큐로 이동
 
-![image](../../assets/images/OperatingSystem/CPU_Scheduling01-3.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/CPU_Scheduling01-3.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
 
-### 선점형과 비선점형 스케줄링
+## 선점형과 비선점형 스케줄링
 
 - 어느 프로세스가 지금 당장 CPU를 사용해야 할 상황에서의 처리 방식
 
 - 현재는 대부분 선점형 스케줄링 방식을 사용
 
-#### 선점형 스케줄링(preemptive scheduling)
+### 선점형 스케줄링(preemptive scheduling)
 
 - 어느 하나의 프로세스가 자원 사용을 독점할 수 없는 스케줄링 방식
 
@@ -83,7 +101,7 @@ sidebar:
 
 - 단점 : 문맥 교맥 과정에서 오버헤드가 발생될 수 있음 
 
-#### 비선점형 스케줄링(non-preemptive scheduling)
+### 비선점형 스케줄링(non-preemptive scheduling)
 
 - 하나의 프로세스가 자원 사용을 독점할 수 있는 스케줄링 방식
 

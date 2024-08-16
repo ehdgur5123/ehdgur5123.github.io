@@ -13,9 +13,9 @@ sidebar:
 
 <hr>
 
-## CPU 스케줄링 알고리즘
+# CPU 스케줄링 알고리즘
 
-### 선입 선처리 스케줄링
+## 선입 선처리 스케줄링
 
 - **FCFS 스케줄링**(First Come First Served Scheduling)이라고도 부름
 
@@ -27,13 +27,13 @@ sidebar:
 
 [^1]: CPU 버스트(CPU burst) : CPU를 이용하는 작업
 
-### 최단 작업 우선 스케줄링
+## 최단 작업 우선 스케줄링
 
 - **SJF 스케줄링**(Shortest Job First Scheduling)이라고도 부름
 
 - 준비 큐에 삽입된 프로세스 중 **CPU 버스트 시간이 짧은 순서**로 프로세스를 처리하는 비선점형 스케줄링 방식
 
-### 라운드 로빈 스케줄링
+## 라운드 로빈 스케줄링
 
 - 선입 선처리 스케줄링에 타임 슬라이스의 개념이 더해진 스케줄링 방식
 
@@ -43,9 +43,15 @@ sidebar:
 
 - 타임 슬라이스가 끝나면 문맥 교환 후, 큐의 마지막에 다시 삽입
 
-![image](../../assets/images/OperatingSystem/CPU_Scheduling02-1.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/CPU_Scheduling02-1.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
-### 최소 잔여 시간 우선 스케줄링
+## 최소 잔여 시간 우선 스케줄링
 
 - **SRT 스케줄링**(Shortest Remaining Time Scheduling)이라고도 부름
 
@@ -53,7 +59,7 @@ sidebar:
 
 - 정해진 타임 슬라이스만큼 CPU를 사용하되, CPU를 사용할 다음 프로세스는 남아있는 작업 시간이 가장 적은 프로세스가 선택
 
-### 우선순위 스케줄링
+## 우선순위 스케줄링
 
 - 프로세스들에 우선순위를 부여하고, 높은 우선순위를 가진 프로세스부터 실행
 
@@ -63,19 +69,25 @@ sidebar:
 
 **에이징**<sup>aging</sup>기법 : 기아현상을 방지하기 위해 오랫동안 대기한 프로세스의 우선순위를 점차 높이는 방식
 
-### 다단계 큐 스케줄링
+## 다단계 큐 스케줄링
 
 - 우선순위별로 준비 큐를 여러 개 사용하는 스케줄링 방식
 
 - 우선순위가 높은 큐에 있는 프로세스를 먼저 처리하고, 우선순위가 높은 프로세스가 비어 있으면 그다음 우선순위 큐에 있는 프로세스를 실행
 
-![image](../../assets/images/OperatingSystem/CPU_Scheduling02-2.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/CPU_Scheduling02-2.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
 - 큐마다 다른 스케줄링 알고리즘 및 타임 슬라이스를 지정할 수 있음
 
 - 기아현상이 발생할 수 있음
 
-### 다단계 피드백 큐 스케줄링
+## 다단계 피드백 큐 스케줄링
 
 - 다단계 큐 스케줄링의 발전된 형태로, 프로세스들이 큐 사이를 이동
 
@@ -93,4 +105,10 @@ sidebar:
 
   5. 즉, CPU 이용 시간이 길면 낮은 우선순위 큐로 이동시키고, 어떤 프로세스가 낮은 우선순위 큐에서 너무 오래 기다린다면 높은 우선순위 큐로 이동시킬 수 있는 알고리즘
 
-![image](../../assets/images/OperatingSystem/CPU_Scheduling02-3.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/CPU_Scheduling02-3.png"
+        alt="image"
+        title="image"
+  >
+</p>

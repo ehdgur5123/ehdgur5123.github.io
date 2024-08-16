@@ -39,9 +39,21 @@ sidebar:
     2. 읽어 들인 잔액에 5만원을 더함
     3. 더한 값을 저장
 
-![image](../../assets/images/OperatingSystem/Synchronization01-1.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/Synchronization01-1.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
-![image](../../assets/images/OperatingSystem/Synchronization01-2.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/Synchronization01-2.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
 ### 예시 2. 생산자와 소비자 문제
 

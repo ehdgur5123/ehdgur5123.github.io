@@ -96,7 +96,13 @@ signal() {
 
 - 뒤에 실행할 프로세스(p2)는 임계 구역 앞에 wait() 함수를 붙이면 된다
 
-![image](../../assets/images/OperatingSystem/Synchronization02-1.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/Synchronization02-1.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
 - p1이 먼저 실행되면 임계 구역 앞에 wait()가 없으니 바로 임계 구역에 진입하여 p1이 먼저 실행됨
 
@@ -116,7 +122,13 @@ signal() {
 
     3. 큐에 삽입된 순서대로 하나씩 공유자원을 이용
 
-![image](../../assets/images/OperatingSystem/Synchronization-02-2.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/Synchronization-02-2.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
 - **조건 변수**<sup>condition variable</sup> : 프로세스나 스레드의 실행 순서를 제어하기 위해 사용되는 특별한 변수
 
@@ -134,6 +146,18 @@ signal() {
 
     5. x.signal() 호출을 통해 프로세스(p1)는 조건 변수 큐에서 빠져나와 모니터에 진입. 공유자원을 사용 
 
-![image](../../assets/images/OperatingSystem/Synchronization-02-3.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/Synchronization-02-3.png"
+        alt="image"
+        title="image"
+  >
+</p>
 
-![image](../../assets/images/OperatingSystem/Synchronization-02-4.png)
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/Synchronization-02-4.png"
+        alt="image"
+        title="image"
+  >
+</p>
