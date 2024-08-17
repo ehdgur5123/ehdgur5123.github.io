@@ -33,7 +33,7 @@ OperatingSystem:
       - title: "17. 파일시스템 관리 Part.03"
         url: "/posts/OS-17/"  
 
-HTML:
+HTML&CSS:
   - title: "HTML List"
     children:
       - title: "1. HTML 개요"
@@ -42,10 +42,7 @@ HTML:
         url: "/posts/HTML-02/" 
       - title: "3. HTML 속성 목록"
         url: "/posts/HTML-03/" 
-
-      
-HTML&CSS:
-  - title: "HTML&CSS List"
+  - title: "Yalco 강의"
     children:
       - title: "1. HTML&CSS 소개"
         url: "/posts/HTMLnCSS-01/" 
