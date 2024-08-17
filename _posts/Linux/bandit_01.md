@@ -5,7 +5,6 @@
 ## Level0
 
 - 반딧 워게임에 접속하려면 ssh로 해당 서버에 접속해야함
-- 터미널에 입력하면 된다
 
 	```bash
 	ssh bandit0@bandit.labs.overthewire.org -p 2220
@@ -108,14 +107,18 @@
 	./-file08: data
 	./-file09: data
 	bandit4@bandit:~/inhere$ cat ./-file07
-	4oQYVkxZOOEOO5pTW81FB8j8lxXGUQw
+	4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 	```
 
-- password : 4oQYVkxZOOEOO5pTW81FB8j8lxXGUQw
+- password : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ## Level5 -> Level6
 
+du -ab | grep 1033
 
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+## Level6 -> Level7
 
 
 
