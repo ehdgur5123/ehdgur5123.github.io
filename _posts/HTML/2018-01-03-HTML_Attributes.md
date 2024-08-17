@@ -1,14 +1,14 @@
 ---
 layout: single
 title: "3) HTML 속성 목록"
-categories: HTML
+categories: HTML&CSS
 tag: [HTML]
 permalink : /posts/HTML-03/
 toc: true
 classes: custom-style
 author_profile: false
 sidebar:
-  nav: "HTML"
+  nav: "HTML&CSS"
 ---
 
 <hr>

@@ -1,14 +1,14 @@
 ---
 layout: single
 title: "1) HTML 개요"
-categories: HTML
+categories: HTML&CSS
 tag: [HTML]
 permalink : /posts/HTML-01/
 toc: true
 classes: custom-style
 author_profile: false
 sidebar:
-  nav: "HTML"
+  nav: "HTML&CSS"
 ---
 
 <hr>

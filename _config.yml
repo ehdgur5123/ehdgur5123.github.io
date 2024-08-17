@@ -312,7 +312,6 @@ defaults:
         nav: "HTML&CSS"
         nav: "Linux"
         nav: "JavaScript"
-        nav: "HTML"
 
 
 date_format: "%Y-%m-%d"
