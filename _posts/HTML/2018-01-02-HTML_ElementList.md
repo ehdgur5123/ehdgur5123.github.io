@@ -5,6 +5,7 @@ categories: HTML
 tag: [HTML]
 permalink : /posts/HTML-02/
 toc: true
+classes: custom-style
 author_profile: false
 sidebar:
   nav: "HTML"
