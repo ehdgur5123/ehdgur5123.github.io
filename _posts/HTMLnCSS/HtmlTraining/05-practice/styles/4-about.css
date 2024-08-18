@@ -1,0 +1,96 @@
+/*섹션 설정*/
+#about {
+    background-color: var(--color-light-bg);
+}
+
+/*카드들 레이아웃*/
+.about {
+    display: inline-flex;
+    gap: 1em;
+    margin-top: 48px;
+}
+
+/*카드와 아이콘*/
+.about__card {
+    padding: 48px;
+    text-align: center;
+    color: white;
+    background-color: var(--color-dark);
+    border-radius: 12px;
+}
+
+.about__icon {
+    width: 120px;
+    opacity: 0.25;
+}
+
+/*카드 안의 텍스트*/
+.about__title {
+    margin-top: 0.6em;
+    font-size: var(--font-size-larger);
+    font-weight: bold;
+}
+  
+.about__title._1 {
+    color: #FFB974;
+}
+.about__title._2 {
+    color: #6BB0F3;
+}
+  .about__title._3 {
+    color: #FFBDCE;
+}
+  
+.about__text {
+    margin-top: 0.8em;
+    font-size: var(--font-size-text);
+}
+
+/*모바일*/
+@media (max-width: 768px) {
+
+    .about {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/*데스크탑*/
+@media (min-width: 769px) {
+
+    #about {
+        grid-column: 1 / -1;
+    }
+
+    .about__card {
+        position: relative;
+        width: 320px;
+        cursor: pointer;
+        transition: all 350ms;
+    }
+
+    /*영역에 마우스 오버시 해당 카드 외 축소*/
+    .about:hover .about__card:not(:hover) {
+        transform: scale(0.9);
+    }
+
+    /* 흐림 필터링을 위한 덮개 */
+    .about:hover .about__card:not(:hover)::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+    }
+
+    /*롤오버된 카드*/
+    .about__card:hover {
+        transform: scale(1.04);
+    }
+    .about__card:hover .about__icon {
+        opacity: 1;
+    }
+}

@@ -30,6 +30,8 @@ OperatingSystem:
         url: "/posts/OS-09/" 
       - title: "10. 교착 상태 Part.02"
         url: "/posts/OS-10/" 
+      - title: "11. 가상 메모리 Part.01"
+        url: "/posts/OS-11/" 
       - title: "15. 파일시스템 관리 Part.01"
         url: "/posts/OS-15/" 
       - title: "16. 파일시스템 관리 Part.02"
@@ -46,6 +48,12 @@ HTML&CSS:
         url: "/posts/HTML-02/" 
       - title: "3. HTML 속성 목록"
         url: "/posts/HTML-03/" 
+  - title: "CSS List"
+    children:
+      - title: "1. CSS 개요"
+        url: "/posts/CSS-01/" 
+      - title: "2. CSS 속성 목록"
+        url: "/posts/CSS-02/"       
   - title: "Yalco 강의"
     children:
       - title: "1. HTML&CSS 소개"
