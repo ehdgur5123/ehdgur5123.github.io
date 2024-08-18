@@ -53,7 +53,9 @@ HTML&CSS:
       - title: "1. CSS 개요"
         url: "/posts/CSS-01/" 
       - title: "2. CSS 속성 목록"
-        url: "/posts/CSS-02/"       
+        url: "/posts/CSS-02/"     
+      - title: "3. CSS 선택자"
+        url: "/posts/CSS-03/"     
   - title: "Yalco 강의"
     children:
       - title: "1. HTML&CSS 소개"
