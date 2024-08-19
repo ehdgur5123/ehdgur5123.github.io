@@ -58,7 +58,7 @@ img_src = "/home/lee/Vscode_ws/ehdgur5123.github.io/_posts/OpenCV/image/logo.jpg
 img = cv2.imread(img_src)
 
 # 이미지 크기 변경
-img_resized = cv2.resize(img, (300, 300))
+img_resized = cv2.resize(img, (300, 50))
 
 cv2.imshow('resized image', img_resized)
 cv2.waitKey(0)
