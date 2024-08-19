@@ -119,6 +119,11 @@ HTML&CSS:
       - title: "30. 오디오와 동영상"
         url: "/posts/HTMLnCSS-30/"   
         
+OpenCV:
+  - title: "OpenCV List"
+    children:
+      - title: "1. 이미지 기초"
+        url: "/posts/OpenCV-01/" 
 
 Linux:
   - title: "Linux List"
