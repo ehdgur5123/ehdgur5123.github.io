@@ -128,16 +128,19 @@ OpenCV:
         url: "/posts/OpenCV-01/" 
 
 Linux:
+  - title: "Linux Command"
+    children:
+      - title: "1. 리눅스 명령어의 종류"
+        url: "/posts/LinuxCommand-01/" 
+      - title: "2. find 명령어"
+        url: "/posts/LinuxCommand-02/" 
   - title: "Linux Master"
     children:
       - title: "1. 운영체제 개요 1"
         url: "/posts/LinuxMaster-01/" 
       - title: "2. 운영체제 개요 2"
         url: "/posts/LinuxMaster-02/" 
-  - title: "Linux Command"
-    children:
-      - title: "1. 리눅스 명령어의 종류"
-        url: "/posts/LinuxCommand-01/" 
+  
       
 
 JavaScript:
