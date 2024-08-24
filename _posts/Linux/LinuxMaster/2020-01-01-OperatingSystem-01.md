@@ -3,7 +3,7 @@ layout: single
 title: "1) 운영체제 개요 1"
 categories: Linux
 tag: [Linux, Operating System]
-permalink : /posts/Linux-01/
+permalink : /posts/LinuxMaster-01/
 classes : custom-style
 toc: true
 author_profile: false
