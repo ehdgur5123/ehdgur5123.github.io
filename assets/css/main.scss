@@ -85,9 +85,14 @@ h2.archive__subtitle {
         font-size: 1.2rem;
     }
 
-    .toc__menu li {
+    .toc__menu ul > li {
         font-family: "Gowun Batang", serif;
         font-size: 0.7em;
+    }
+
+    .toc__menu > li {
+        font-family: "Gowun Batang", serif;
+        font-size: 0.8em;
     }
 
     .page__content p > img {
