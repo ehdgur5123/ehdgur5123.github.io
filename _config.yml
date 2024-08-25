@@ -134,7 +134,12 @@ author:
     - label: "Emojipedia"
       icon: "fa-duotone fa-solid fa-face-smile"
       url: "https://emojipedia.org/"  
-      
+    - label: "유데미(Udemy)"
+      icon: "fa-brands fa-studiovinari"
+      url: "https://www.udemy.com/"  
+    - label: "ZTM"
+      icon: "fa-brands fa-studiovinari"
+      url: "https://zerotomastery.io/"    
 
 # Site Footer
 footer:
