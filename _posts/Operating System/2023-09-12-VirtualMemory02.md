@@ -142,3 +142,173 @@ getconf PAGESIZE
 </p>
 
 ## 페이지에서의 주소 변환
+
+페이지와 프레임은 일정 단위로 쪼개졌기 때문에 내부에 여러 주소를 포괄하고 있음
+
+그렇기 때문에 특정 주소에 접근하기 위해서는 아래와 같은 두 가지 정보가 필요
+
+1. 어떤 페이지 혹은 프레임에 접근할지
+
+2. 접근하려는 주소가 그 페이지 혹은 프레임으로부터 얼마나 떨어져 있는지
+
+그렇기에 페이징 시스템에서는 모든 *논리 주소*가 기본적으로 **페이지 번호**<sup>page number</sup>와 **변위**<sup>offset</sup>로 이루어져 있음
+
+> 변위 : 접근하려는 주소가 프레임의 시작 번지로부터 얼마큼 떨어져 있는지를 알기 위한 정보
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-7.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+논리 주소 <페이지 번호, 변위>는 페이지 테이블을 통해 물리 주소 <프레임 번호, 변위>로 변환 됨
+
+예: 아래 그림과 같은 상황에서 CPU가 페이지 5번, 변위 2라는 논리 주소에 접근 한다고 가정 한다면 변환되는 물리 주소는 어디일까?
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-8.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+1. 논리 주소는 <5, 2>로 페이지 테이블을 보고 1번 프레임에 접근
+
+2. 1번 프레임의 시작 번지는 8번지 이므로, 시작 번지로부터 2만큼 떨어진 10번지로 변환 됨
+
+3. 즉, CPU는 물리 주소 공간의 <u>10번지</u>에 접근하게 됨
+
+## 페이지 테이블 엔트리
+
+페이지 테이블 엔트리(PTE: Page Table Entry) : 페이지 테이블을 이루는 각각의 행
+
+페이지 테이블 엔트리에 담기는 정보로는 '페이지 번호'와 '프레임 번호' 이외에도 *유효 비트*, *보호 비트*, *참조 비트*, *수정 비트* 등이 있음
+
+### 유효 비트(valid bit)
+
+- 해당 페이지가 메모리에 적재되어 있는지 여부를 알려주는 비트
+
+- 스와핑으로 인해, 모든 페이지가 메모리에 적재되어 있지 않고, 보조기억장치의 스왑 영역에 위치할 수 있음
+
+- 이 때, 메모리에 적재되어 있다면 유효 비트는 1, 스왑 영역에 있다면 유효 비트는 0이 됨
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-9.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+- CPU가 유효 비트가 0인 페이지에 접근하려 한다면 **페이지 폴트**<sup>page fault</sup>라는 예외가 발생
+
+- CPU의 페이지 폴트 처리 과정
+
+  1. CPU는 기존 작업 내역을 <b>백업</b>
+  2. 페이지 폴트 처리 루틴을 실행
+  3. 페이지 처리 루틴은 원하는 <b>페이지를 메모리로 가져온 뒤 유효 비트를 1로 변경</b>
+  4. CPU가 해당 <b>페이지에 접근</b>
+
+### 보호 비트(protection bit)
+
+- 페이지 보호 기능을 위해 존재하는 비트
+
+- 읽기(**R**ead), 쓰기(**W**rite), 실행(e**X**ecute) 등 페이지에 접근 권한을 제한하여 페이지를 보호
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-10.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+### 참조 비트(reference bit)
+
+- CPU가 페이지에 접근한 적이 있는지 여부를 나타내는 비트
+
+- 메모리 적재 이후 CPU가 읽거나 쓴 페이지는 1이 되고, 한 번도 읽거나 쓴 적이 없는 페이지는 0이 됨
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-11.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+### 수정 비트(modified bit)
+
+- **더티 비트**<sup>dirty bit</sup>라고도 부르며, 해당 페이지에 데이터를 쓴 적이 있는지 없는지의 수정 여부를 알려줌
+
+- 변경된 적이 있으면 1, 없으면 0
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-12.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+- 메모리에 적재 되었으나, 수정된 적이 없다면 보조기억장치와 같은 값을 갖기 때문에 그대로 덮어쓰면 됨
+
+- 수정된 페이지만 스왑 아웃될 경우 변경된 값을 보조기억장치에 기록
+
+## 페이징의 이점 - 쓰기 시 복사
+
+- 프로세스 생성 시, 부모 프로세스는 fork를 통해 자신의 복사본을 자식 프로세스로 생성해냄(👉 [프로세스 생성기법](https://ehdgur5123.github.io/posts/OS-03/#%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%83%9D%EC%84%B1-%EA%B8%B0%EB%B2%95))
+
+- 일반적인 경우, 부모 프로세스와 자식 프로세스는 전혀 다른 메모리 공간에 생성되므로 프로세스 생성 시간이 늦어지며, 불필요한 메모리 낭비를 야기
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-13.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+- 반면 페이징의 쓰기 시 복사에서는 동일한 프레임을 가리킴
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-14.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+- 부모 프로세스 혹은 자식 프로세스가 페이지에 쓰기 작업을 하면 해당 페이지만 별도의 공간으로 복제되어 고유한 페이지가 할당된 프레임을 가리킴
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-15.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+## 계층적 페이징
+
+- 페이지 테이블의 크기는 생각보다 작지 않음
+
+- 모든 페이지 테이블 엔트리를 메모리에 적재하는 것은 메모리 낭비
+
+- 계층적 페이징<sup>hierarchical paging</sup>을 통해 이를 해결(다단계 페이지 테이블이라고도 부름)
+
+- 페이지 테이블을 여러 개의 페이지로 자르고, 'Outer 페이지 테이블'에 쪼개진 페이지들을 가리키는 방식
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-16.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+- 'Outer 페이지 테이블'
+
