@@ -136,6 +136,8 @@ Linux:
         url: "/posts/LinuxCommand-find/" 
       - title: "ln 명령어"
         url: "/posts/LinuxCommand-ln/" 
+      - title: "ls 명령어"
+        url: "/posts/LinuxCommand-ls/" 
   - title: "Linux Master"
     children:
       - title: "1. 운영체제 개요 1"
