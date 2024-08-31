@@ -34,6 +34,8 @@ OperatingSystem:
         url: "/posts/OS-11/" 
       - title: "12. 가상 메모리 Part.02"
         url: "/posts/OS-12/" 
+      - title: "13. 가상 메모리 Part.03"
+        url: "/posts/OS-13/" 
       - title: "15. 파일시스템 관리 Part.01"
         url: "/posts/OS-15/" 
       - title: "16. 파일시스템 관리 Part.02"

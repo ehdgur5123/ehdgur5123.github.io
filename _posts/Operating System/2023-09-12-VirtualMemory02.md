@@ -310,5 +310,44 @@ getconf PAGESIZE
   >
 </p>
 
-- 'Outer 페이지 테이블'
+- 페이지 테이블을 이렇게 계층적으로 구성하면 모든 페이지 테이블을 항상 메모리에 유지할 필요가 없음 
 
+- **Outer 페이지 테이블**은 항상 메모리에 유지해야 함
+
+- 계층적 페이징을 사용하는 경우 CPU가 발생하는 논리 주소는 '바깥 페이지 번호', '안쪽 페이지 번호', '변위'로 구성 됨(위의 [페이지에서의 주소 변환](https://ehdgur5123.github.io/posts/OS-12/#%ED%8E%98%EC%9D%B4%EC%A7%80%EC%97%90%EC%84%9C%EC%9D%98-%EC%A3%BC%EC%86%8C-%EB%B3%80%ED%99%98) 참조)
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-17.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+- 예를들어 논리 주소가 (2,1,3)으로 구성되어 있다고 가정하자
+
+  1. 가장 바깥쪽(Outer) 페이지 테이블에서 2만큼 떨어진 곳의 
+  
+  2. 페이지 테이블에서 1만큼 떨어진 페이지 번호에 해당되는 프레임 번호의
+
+  3. 3만큼 떨어진 번지
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-18.jpeg"
+        alt="image"
+        title="image"
+  >
+</p>
+
+<p id="img_center">
+  <img 
+        src="../../assets/images/OperatingSystem/VirtualMemory02-18.png"
+        alt="image"
+        title="image"
+  >
+</p>
+
+- 위에서는 두 개의 계층으로 이루어진 페이지 테이블(2단계 페이징)을 예시로 들었지만, 그 이상의 계층으로 구성될 수 있음
+
+- 다만, 페이지 테이블의 계층이 늘어날수록 **페이지 폴트**가 발생했을 경우 **메모리 참조 횟수가 많아**지므로 계층이 많다고 해서 반드시 좋다고 볼 수는 없음
