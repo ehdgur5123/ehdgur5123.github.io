@@ -49,6 +49,12 @@ Network:
       - title: "1. 컴퓨터 네트워크"
         url: "/posts/Network-01/" 
 
+Hacking:
+  - title: "Hacking List"
+    children:
+      - title: "1. Google Dorks"
+        url: "/posts/Hacking-/" 
+
 HTML&CSS:
   - title: "HTML List"
     children:
