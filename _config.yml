@@ -318,6 +318,7 @@ defaults:
         nav: "Linux"
         nav: "JavaScript"
         nav: "OpenCV"
+        nav: "Network"
 
 
 date_format: "%Y-%m-%d"

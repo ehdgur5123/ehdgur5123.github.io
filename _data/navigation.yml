@@ -43,6 +43,12 @@ OperatingSystem:
       - title: "16. 파일시스템 관리 Part.03"
         url: "/posts/OS-17/"  
 
+Network:
+  - title: "Network List"
+    children:
+      - title: "1. 컴퓨터 네트워크"
+        url: "/posts/Network-01/" 
+
 HTML&CSS:
   - title: "HTML List"
     children:
