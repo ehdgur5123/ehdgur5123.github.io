@@ -152,6 +152,8 @@ Linux:
         url: "/posts/LinuxCommand-ln/" 
       - title: "ls 명령어"
         url: "/posts/LinuxCommand-ls/" 
+      - title: "cd 명령어"
+        url: "/posts/LinuxCommand-cd/" 
   - title: "Linux Master"
     children:
       - title: "1. 운영체제 개요 1"
