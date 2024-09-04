@@ -156,10 +156,9 @@ Linux:
         url: "/posts/LinuxCommand-cd/" 
   - title: "Linux Master"
     children:
-      - title: "1. 운영체제 개요 1"
+      - title: "1. 와일드 카드"
         url: "/posts/LinuxMaster-01/" 
-      - title: "2. 운영체제 개요 2"
-        url: "/posts/LinuxMaster-02/" 
+
   
       
 
