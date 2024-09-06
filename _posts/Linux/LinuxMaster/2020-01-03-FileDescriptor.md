@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "파일 디스크립터와 리디렉션"
+title: "파일 디스크립터"
 categories: Linux
 tag: [Linux]
-permalink : /posts/LinuxMaster-02/
+permalink : /posts/LinuxMaster-03/
 classes : custom-style
 toc: true
 author_profile: false
@@ -13,7 +13,7 @@ sidebar:
 
 <hr>
 
-# 파일 디스크립터
+# 파일 디스크립터(File Descriptor)
 
 
 # 표준 입력(Standard Input, stdin)

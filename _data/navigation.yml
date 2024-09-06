@@ -160,6 +160,12 @@ Linux:
     children:
       - title: "1. 와일드 카드"
         url: "/posts/LinuxMaster-01/" 
+      - title: "2. 정규 표현식"
+        url: "/posts/LinuxMaster-02/" 
+      - title: "3. 파일 디스크립터"
+        url: "/posts/LinuxMaster-03/" 
+      - title: "4. 리다이렉션"
+        url: "/posts/LinuxMaster-04/" 
 
   
       
