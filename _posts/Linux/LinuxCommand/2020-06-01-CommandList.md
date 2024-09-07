@@ -3,7 +3,7 @@ layout: single
 title: "1) 리눅스 명령어의 종류"
 categories: Linux
 tag: [Linux]
-permalink : /posts/LinuxCommand-01/
+permalink : /posts/LinuxCommand-List/
 classes : custom-style
 toc: true
 author_profile: false
@@ -28,6 +28,7 @@ sidebar:
 - `du`: 디스크 사용량을 확인합니다.
 - `df`: 파일 시스템의 디스크 사용량을 확인합니다.
 - `ln`: 하드 링크 및 심볼릭 링크 생성(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ln))
+- `file` : 파일의 타입을 식별할 때 사용하는 명령어(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-file))
 
 # 2. 파일 내용 관리
 
@@ -36,7 +37,7 @@ sidebar:
 - `less`: more 명령어와 비슷하지만, 더 다양한 탐색 기능을 제공합니다.
 - `head`: 파일의 처음 몇 줄을 출력합니다.
 - `tail`: 파일의 마지막 몇 줄을 출력합니다.
-- `grep`: 텍스트 파일에서 특정 패턴을 검색합니다.
+- `grep`: 텍스트 파일에서 특정 패턴을 검색합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-grep))
 - `sort`: 파일의 내용을 정렬합니다.
 - `wc`: 파일의 라인, 단어, 문자 개수를 계산합니다.
 - `diff`: 두 파일의 차이점을 비교합니다.

@@ -145,7 +145,7 @@ Linux:
   - title: "Linux Command"
     children:
       - title: "1. 리눅스 명령어의 종류"
-        url: "/posts/LinuxCommand-01/" 
+        url: "/posts/LinuxCommand-List/" 
       - title: "find 명령어"
         url: "/posts/LinuxCommand-find/" 
       - title: "ln 명령어"
@@ -156,6 +156,8 @@ Linux:
         url: "/posts/LinuxCommand-cd/" 
       - title: "grep 명령어"
         url: "/posts/LinuxCommand-grep/"   
+      - title: "file 명령어"
+        url: "/posts/LinuxCommand-file/"    
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
