@@ -46,8 +46,10 @@ OperatingSystem:
 Network:
   - title: "Network List"
     children:
-      - title: "1. 컴퓨터 네트워크"
+      - title: "1. 컴퓨터 네트워크(거시적)"
         url: "/posts/Network-01/" 
+      - title: "2. 컴퓨터 네트워크(미시적)"
+        url: "/posts/Network-02/"  
 
 Hacking:
   - title: "Hacking List"
