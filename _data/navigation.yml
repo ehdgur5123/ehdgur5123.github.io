@@ -164,6 +164,8 @@ Linux:
         url: "/posts/LinuxCommand-ps/"      
       - title: "pwd 명령어"
         url: "/posts/LinuxCommand-pwd/"  
+      - title: "ping 명령어"
+        url: "/posts/LinuxCommand-ping/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
