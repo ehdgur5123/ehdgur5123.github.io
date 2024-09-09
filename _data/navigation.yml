@@ -162,6 +162,8 @@ Linux:
         url: "/posts/LinuxCommand-cat/"      
       - title: "ps 명령어"
         url: "/posts/LinuxCommand-ps/"      
+      - title: "pwd 명령어"
+        url: "/posts/LinuxCommand-pwd/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
