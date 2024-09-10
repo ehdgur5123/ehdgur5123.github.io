@@ -10,6 +10,12 @@ search: false
 
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Hi+Melody&display=swap');
 
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('/assets/fonts/RIDIBatang.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
   
 // 카테고리 및 태그의 색상
 .taxonomy__index > li {
@@ -71,17 +77,17 @@ h2.archive__subtitle {
     }
 
     .page__content p {
-        font-family: "Hi Melody", sans-serif;
+        font-family: 'RIDIBatang', serif;
         font-size: 1.2rem;
     }
 
     .page__content ol > li {
-        font-family: "Hi Melody", sans-serif;
+        font-family: 'RIDIBatang', serif;
         font-size: 1.2rem;
     }
 
     .page__content ul > li {
-        font-family: "Hi Melody", sans-serif;
+        font-family: 'RIDIBatang', serif;
         font-size: 1.2rem;
     }
 
