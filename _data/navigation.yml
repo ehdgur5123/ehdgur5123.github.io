@@ -170,6 +170,8 @@ Linux:
         url: "/posts/LinuxCommand-ping/"  
       - title: "uniq 명령어"
         url: "/posts/LinuxCommand-uniq/"  
+      - title: "mkdir 명령어"
+        url: "/posts/LinuxCommand-mkdir/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
