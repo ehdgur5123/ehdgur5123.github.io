@@ -172,6 +172,8 @@ Linux:
         url: "/posts/LinuxCommand-uniq/"  
       - title: "mkdir 명령어"
         url: "/posts/LinuxCommand-mkdir/"  
+      - title: "rmdir 명령어"
+        url: "/posts/LinuxCommand-rmdir/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
