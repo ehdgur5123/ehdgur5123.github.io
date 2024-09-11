@@ -21,7 +21,7 @@ sidebar:
 - `mkdir`: 새로운 디렉토리를 생성합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-mkdir))
 - `rmdir`: 비어 있는 디렉토리를 삭제합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-rmdir))
 - `rm`: 파일 또는 디렉토리를 삭제합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-rm))
-- `cp`: 파일이나 디렉토리를 복사합니다.
+- `cp`: 파일이나 디렉토리를 복사합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-cp))
 - `mv`: 파일이나 디렉토리를 이동하거나 이름을 변경합니다.
 - `touch`: 새로운 빈 파일을 생성하거나 기존 파일의 타임스탬프를 변경합니다.
 - `find`: 파일 및 디렉토리를 검색합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-find))

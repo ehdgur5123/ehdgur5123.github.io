@@ -176,6 +176,8 @@ Linux:
         url: "/posts/LinuxCommand-rmdir/"  
       - title: "rm 명령어"
         url: "/posts/LinuxCommand-rm/"  
+      - title: "cp 명령어"
+        url: "/posts/LinuxCommand-cp/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
