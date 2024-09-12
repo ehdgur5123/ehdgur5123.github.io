@@ -180,6 +180,8 @@ Linux:
         url: "/posts/LinuxCommand-cp/"  
       - title: "mv 명령어"
         url: "/posts/LinuxCommand-mv/"  
+      - title: "touch 명령어"
+        url: "/posts/LinuxCommand-touch/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
