@@ -182,6 +182,8 @@ Linux:
         url: "/posts/LinuxCommand-mv/"  
       - title: "touch 명령어"
         url: "/posts/LinuxCommand-touch/"  
+      - title: "du 명령어"
+        url: "/posts/LinuxCommand-du/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"

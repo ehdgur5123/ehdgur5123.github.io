@@ -25,7 +25,7 @@ sidebar:
 - `mv`: 파일이나 디렉토리를 이동하거나 이름을 변경합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-mv))
 - `touch`: 새로운 빈 파일을 생성하거나 기존 파일의 타임스탬프를 변경합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-touch))
 - `find`: 파일 및 디렉토리를 검색합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-find))
-- `du`: 디스크 사용량을 확인합니다.
+- `du`: 디스크 사용량을 확인합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-du))
 - `df`: 파일 시스템의 디스크 사용량을 확인합니다.
 - `ln`: 하드 링크 및 심볼릭 링크 생성(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ln))
 - `file` : 파일의 타입을 식별할 때 사용하는 명령어(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-file))
