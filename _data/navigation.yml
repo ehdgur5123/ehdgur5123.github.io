@@ -186,6 +186,8 @@ Linux:
         url: "/posts/LinuxCommand-du/"  
       - title: "df 명령어"
         url: "/posts/LinuxCommand-df/"  
+      - title: "uname 명령어"
+        url: "/posts/LinuxCommand-uname/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
