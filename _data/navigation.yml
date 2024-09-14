@@ -188,6 +188,8 @@ Linux:
         url: "/posts/LinuxCommand-df/"  
       - title: "uname 명령어"
         url: "/posts/LinuxCommand-uname/"  
+      - title: "kill 명령어"
+        url: "/posts/LinuxCommand-kill/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
@@ -212,6 +214,11 @@ JavaScript:
       - title: "3. 숫자 관련 연산자"
         url: "/posts/JavaScript-03/"
 
+pandas:
+  - title: "pandas List"
+    children:
+      - title: "1. 판다스(pandas)란?"
+        url: "/posts/pandas-01/" 
 
 
        

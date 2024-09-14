@@ -320,6 +320,7 @@ defaults:
         nav: "OpenCV"
         nav: "Network"
         nav: "Hacking"
+        nav: "pandas"
 
 
 date_format: "%Y-%m-%d"

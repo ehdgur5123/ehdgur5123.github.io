@@ -48,7 +48,7 @@ sidebar:
 - `ps`: 현재 실행 중인 프로세스 목록을 표시합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ps))
 - `top`: 실시간으로 시스템의 프로세스 상태를 모니터링합니다.
 - `htop`: top 명령어의 개선된 버전으로, 더 직관적인 인터페이스를 제공합니다.
-- `kill`: 프로세스를 종료합니다.
+- `kill`: 프로세스를 종료합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-kill))
 - `pkill`: 이름을 기반으로 프로세스를 종료합니다.
 - `bg`: 백그라운드에서 작업을 실행합니다.
 - `fg`: 포어그라운드에서 백그라운드 작업을 가져옵니다.
