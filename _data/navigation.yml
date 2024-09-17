@@ -50,6 +50,8 @@ Network:
         url: "/posts/Network-01/" 
       - title: "2. 컴퓨터 네트워크(미시적)"
         url: "/posts/Network-02/"  
+      - title: "3. 트래픽과 네트워크 성능 지표"
+        url: "/posts/Network-03/"  
 
 Hacking:
   - title: "Hacking List"
@@ -190,6 +192,8 @@ Linux:
         url: "/posts/LinuxCommand-uname/"  
       - title: "kill 명령어"
         url: "/posts/LinuxCommand-kill/"  
+      - title: "top 명령어"
+        url: "/posts/LinuxCommand-top/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
