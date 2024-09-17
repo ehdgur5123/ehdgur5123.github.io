@@ -217,7 +217,7 @@ JavaScript:
 pandas:
   - title: "pandas List"
     children:
-      - title: "1. 판다스(pandas)란?"
+      - title: "1. 판다스(pandas) 객체"
         url: "/posts/pandas-01/" 
 
 
