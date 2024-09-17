@@ -219,10 +219,10 @@ pandas:
     children:
       - title: "1. 판다스(pandas) 객체"
         url: "/posts/pandas-01/" 
+      - title: "2. 데이터프레임 데이터 추출/추가/삭제"
+        url: "/posts/pandas-02/" 
 
 
-       
-        
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
