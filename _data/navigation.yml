@@ -194,6 +194,8 @@ Linux:
         url: "/posts/LinuxCommand-kill/"  
       - title: "top 명령어"
         url: "/posts/LinuxCommand-top/"  
+      - title: "useradd 명령어"
+        url: "/posts/LinuxCommand-useradd/"  
   - title: "Linux Master"
     children:
       - title: "1. 와일드 카드"
@@ -205,8 +207,6 @@ Linux:
       - title: "4. 리다이렉션"
         url: "/posts/LinuxMaster-04/" 
 
-  
-      
 
 JavaScript:
   - title: "JavaScript List"
