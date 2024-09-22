@@ -210,7 +210,8 @@ Linux:
         url: "/posts/LinuxCommand-useradd/"  
       - title: "usermod 명령어"
         url: "/posts/LinuxCommand-usermod/"  
-
+      - title: "ifconfig 명령어"
+        url: "/posts/LinuxCommand-ifconfig/"  
 
 JavaScript:
   - title: "JavaScript List"
