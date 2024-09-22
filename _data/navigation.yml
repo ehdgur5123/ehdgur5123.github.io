@@ -52,6 +52,8 @@ Network:
         url: "/posts/Network-02/"  
       - title: "3. 트래픽과 네트워크 성능 지표"
         url: "/posts/Network-03/"  
+      - title: "4. 이더넷"
+        url: "/posts/Network-04/"  
 
 Hacking:
   - title: "Hacking List"
@@ -146,6 +148,16 @@ OpenCV:
         url: "/posts/OpenCV-01/" 
 
 Linux:
+  - title: "Linux Master"
+    children:
+      - title: "1. 와일드 카드"
+        url: "/posts/LinuxMaster-01/" 
+      - title: "2. 정규 표현식"
+        url: "/posts/LinuxMaster-02/" 
+      - title: "3. 파일 디스크립터"
+        url: "/posts/LinuxMaster-03/" 
+      - title: "4. 리다이렉션"
+        url: "/posts/LinuxMaster-04/" 
   - title: "Linux Command"
     children:
       - title: "리눅스 명령어의 종류"
@@ -198,16 +210,6 @@ Linux:
         url: "/posts/LinuxCommand-useradd/"  
       - title: "usermod 명령어"
         url: "/posts/LinuxCommand-usermod/"  
-  - title: "Linux Master"
-    children:
-      - title: "1. 와일드 카드"
-        url: "/posts/LinuxMaster-01/" 
-      - title: "2. 정규 표현식"
-        url: "/posts/LinuxMaster-02/" 
-      - title: "3. 파일 디스크립터"
-        url: "/posts/LinuxMaster-03/" 
-      - title: "4. 리다이렉션"
-        url: "/posts/LinuxMaster-04/" 
 
 
 JavaScript:
