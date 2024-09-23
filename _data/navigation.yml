@@ -214,6 +214,8 @@ Linux:
         url: "/posts/LinuxCommand-ifconfig/"  
       - title: "ip 명령어"
         url: "/posts/LinuxCommand-ip/"  
+      - title: "netstat 명령어"
+        url: "/posts/LinuxCommand-netstat/"  
 
 JavaScript:
   - title: "JavaScript List"
