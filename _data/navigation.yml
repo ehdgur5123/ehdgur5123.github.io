@@ -216,6 +216,8 @@ Linux:
         url: "/posts/LinuxCommand-ip/"  
       - title: "netstat 명령어"
         url: "/posts/LinuxCommand-netstat/"  
+      - title: "sudo 명령어"
+        url: "/posts/LinuxCommand-sudo/"  
 
 JavaScript:
   - title: "JavaScript List"
