@@ -53,7 +53,9 @@ Network:
       - title: "3. 트래픽과 네트워크 성능 지표"
         url: "/posts/Network-03/"  
       - title: "4. 이더넷"
-        url: "/posts/Network-04/"  
+        url: "/posts/Network-04/"
+      - title: "5. NIC와 케이블"
+        url: "/posts/Network-05/"  
 
 Hacking:
   - title: "Hacking List"
