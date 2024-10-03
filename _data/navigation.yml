@@ -60,8 +60,10 @@ Network:
 Hacking:
   - title: "Hacking List"
     children:
-      - title: "1. Google Dorks"
+      - title: "1. 정보수집하기(Google Dorks)"
         url: "/posts/Hacking-01/" 
+      - title: "2. IP 주소 찾기(linux command)"
+        url: "/posts/Hacking-02/" 
 
 HTML&CSS:
   - title: "HTML List"
