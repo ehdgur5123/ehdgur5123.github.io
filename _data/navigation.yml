@@ -220,6 +220,8 @@ Linux:
         url: "/posts/LinuxCommand-netstat/"  
       - title: "sudo 명령어"
         url: "/posts/LinuxCommand-sudo/"  
+      - title: "host 명령어"
+        url: "/posts/LinuxCommand-host/"  
 
 JavaScript:
   - title: "JavaScript List"
