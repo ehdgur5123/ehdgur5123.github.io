@@ -222,6 +222,8 @@ Linux:
         url: "/posts/LinuxCommand-sudo/"  
       - title: "host 명령어"
         url: "/posts/LinuxCommand-host/"  
+      - title: "nslookup 명령어"
+        url: "/posts/LinuxCommand-nslookup/"  
 
 JavaScript:
   - title: "JavaScript List"
