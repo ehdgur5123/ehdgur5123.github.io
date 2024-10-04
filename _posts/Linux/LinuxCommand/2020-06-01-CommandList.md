@@ -76,6 +76,7 @@ sidebar:
 - `curl`: 데이터를 전송하거나 다운로드합니다.
 - `host`: DNS의 정보를 조회합니다(비대화형 모드).(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-host))
 - `nslookup`: DNS의 정보를 조회합니다(대화형 모드).(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-nslookup))
+- `whois`: 도메인 이름 또는 IP 주소에 대한 등록 정보를 조회(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-whois))
 
 # 6. 시스템 정보 확인
 
