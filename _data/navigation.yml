@@ -64,6 +64,9 @@ Hacking:
         url: "/posts/Hacking-01/" 
       - title: "2. IP 주소 찾기(linux command)"
         url: "/posts/Hacking-02/" 
+      - title: "3. whatweb 명령어"
+        url: "/posts/Hacking-03/" 
+
 
 HTML&CSS:
   - title: "HTML List"
