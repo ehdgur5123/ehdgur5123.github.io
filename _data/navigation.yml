@@ -57,15 +57,15 @@ Network:
       - title: "5. NIC와 케이블"
         url: "/posts/Network-05/"  
 
-Hacking:
-  - title: "Hacking List"
+Security:
+  - title: "Security List"
     children:
       - title: "1. 정보수집하기(Google Dorks)"
-        url: "/posts/Hacking-01/" 
+        url: "/posts/Security-01/" 
       - title: "2. IP 주소 찾기(linux command)"
-        url: "/posts/Hacking-02/" 
+        url: "/posts/Security-02/" 
       - title: "3. whatweb 명령어"
-        url: "/posts/Hacking-03/" 
+        url: "/posts/Security-03/" 
 
 
 HTML&CSS:

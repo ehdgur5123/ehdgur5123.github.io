@@ -319,7 +319,7 @@ defaults:
         nav: "JavaScript"
         nav: "OpenCV"
         nav: "Network"
-        nav: "Hacking"
+        nav: "Security"
         nav: "pandas"
 
 
