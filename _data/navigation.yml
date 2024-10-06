@@ -72,6 +72,8 @@ Security:
         url: "/posts/Security-05/" 
       - title: "6. nikto 명령어"
         url: "/posts/Security-06/" 
+      - title: "7. burpsuite"
+        url: "/posts/Security-07/" 
 
 HTML&CSS:
   - title: "HTML List"
