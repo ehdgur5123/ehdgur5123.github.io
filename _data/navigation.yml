@@ -66,7 +66,10 @@ Security:
         url: "/posts/Security-02/" 
       - title: "3. whatweb 명령어"
         url: "/posts/Security-03/" 
-
+      - title: "4. dirb 명령어"
+        url: "/posts/Security-04/" 
+      - title: "5. nmap 명령어"
+        url: "/posts/Security-05/" 
 
 HTML&CSS:
   - title: "HTML List"
