@@ -109,6 +109,14 @@ h2.archive__subtitle {
         border: 1px solid black;
     }
 
+    .page__content p > video {
+        max-width: 80%;
+        min-width: 80%;
+        height: auto;
+        vertical-align: middle;
+        border: 1px solid black;
+    }
+
     .page__content > blockquote {
         margin-inline-end: 1em;
         padding-inline: 0.3em;
