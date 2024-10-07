@@ -72,10 +72,14 @@ Security:
         url: "/posts/Security-05/" 
       - title: "6. nikto 명령어"
         url: "/posts/Security-06/" 
-      - title: "7. burpsuite 란?"
+      - title: "7. burpsuite 도구"
         url: "/posts/Security-07/" 
       - title: "8. burpsuite 프록시(Proxy) 설정"
         url: "/posts/Security-08/" 
+      - title: "9. Try Hack Me 사이트"
+        url: "/posts/Security-09/" 
+      - title: "10. wireshark 도구"
+        url: "/posts/Security-10/"
 
 HTML&CSS:
   - title: "HTML List"
