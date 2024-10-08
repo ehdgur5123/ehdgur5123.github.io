@@ -27,8 +27,9 @@ sidebar:
 - `find`: 파일 및 디렉토리를 검색합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-find))
 - `du`: 디스크 사용량을 확인합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-du))
 - `df`: 파일 시스템의 디스크 사용량을 확인합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-df))
-- `ln`: 하드 링크 및 심볼릭 링크 생성(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ln))
-- `file` : 파일의 타입을 식별할 때 사용하는 명령어(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-file))
+- `ln`: 하드 링크 및 심볼릭 링크를 생성합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ln))
+- `file` : 파일의 타입을 식별할 때 사용합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-file))
+- `rename` : 파일명 또는 디렉토리명을 일괄적으로 변경합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-rename))
 
 # 2. 파일 내용 관리
 
@@ -41,7 +42,7 @@ sidebar:
 - `sort`: 파일의 내용을 정렬합니다.
 - `wc`: 파일의 라인, 단어, 문자 개수를 계산합니다.
 - `diff`: 두 파일의 차이점을 비교합니다.
-- `uniq`: 중복된 줄을 제거하여 유일한 줄만 출력하는 명령어(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-uniq))
+- `uniq`: 중복된 줄을 제거하여 유일한 줄만 출력합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-uniq))
 
 # 3. 프로세스 관리
 
