@@ -246,6 +246,8 @@ Linux:
         url: "/posts/LinuxCommand-whois/"  
       - title: "rename 명령어"
         url: "/posts/LinuxCommand-rename/"  
+      - title: "sed 명령어"
+        url: "/posts/LinuxCommand-sed/"  
 
 JavaScript:
   - title: "JavaScript List"
