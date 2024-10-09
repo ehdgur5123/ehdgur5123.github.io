@@ -244,6 +244,8 @@ Linux:
         url: "/posts/LinuxCommand-nslookup/"  
       - title: "whois 명령어"
         url: "/posts/LinuxCommand-whois/"  
+      - title: "rename 명령어"
+        url: "/posts/LinuxCommand-rename/"  
 
 JavaScript:
   - title: "JavaScript List"
