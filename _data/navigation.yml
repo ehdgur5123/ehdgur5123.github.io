@@ -80,6 +80,9 @@ Security:
         url: "/posts/Security-09/" 
       - title: "10. wireshark 도구"
         url: "/posts/Security-10/"
+      - title: "11. burpsuite 프록시 인터셉트"
+        url: "/posts/Security-11/"
+
 
 HTML&CSS:
   - title: "HTML List"
