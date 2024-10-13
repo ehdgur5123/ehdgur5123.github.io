@@ -82,6 +82,8 @@ Security:
         url: "/posts/Security-10/"
       - title: "11. burpsuite 프록시 인터셉트"
         url: "/posts/Security-11/"
+      - title: "12. HTML Injection"
+        url: "/posts/Security-12/"
 
 
 HTML&CSS:
