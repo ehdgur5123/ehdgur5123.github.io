@@ -84,7 +84,8 @@ Security:
         url: "/posts/Security-11/"
       - title: "12. HTML Injection"
         url: "/posts/Security-12/"
-
+      - title: "13. Command Injection"
+        url: "/posts/Security-13/"
 
 HTML&CSS:
   - title: "HTML List"
@@ -308,3 +309,11 @@ MarkDown:
       url: "/posts/Markdown-10/" 
     - title: "11. 기타(The Others)"
       url: "/posts/Markdown-11/"   
+
+Others:
+- title: "Others List"
+  children:
+    - title: "1. VS code 스니펫 설정"
+      url: "/posts/Others-01/"
+    - title: "2. Paris 여행"
+      url: "/posts/Others-02/"

@@ -321,6 +321,6 @@ defaults:
         nav: "Network"
         nav: "Security"
         nav: "pandas"
-
+        nav: "Others"
 
 date_format: "%Y-%m-%d"
