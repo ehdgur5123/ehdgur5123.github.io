@@ -86,6 +86,10 @@ Security:
         url: "/posts/Security-12/"
       - title: "13. Command Injection"
         url: "/posts/Security-13/"
+      - title: "14. Broken Authentication"
+        url: "/posts/Security-14/"
+
+        
 
 HTML&CSS:
   - title: "HTML List"

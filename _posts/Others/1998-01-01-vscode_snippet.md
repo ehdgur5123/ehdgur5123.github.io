@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "VS code 스니펫 설정"
-categories: VScode
+categories: Others
 tag: [VScode, snippet]
 permalink : /posts/Others-01/
 toc: true
