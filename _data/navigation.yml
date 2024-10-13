@@ -56,6 +56,8 @@ Network:
         url: "/posts/Network-04/"
       - title: "5. NIC와 케이블"
         url: "/posts/Network-05/"  
+      - title: "6. 허브(hub)"
+        url: "/posts/Network-06/"  
 
 Security:
   - title: "Security List"

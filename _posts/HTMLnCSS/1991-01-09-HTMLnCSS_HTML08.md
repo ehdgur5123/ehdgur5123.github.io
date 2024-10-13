@@ -60,17 +60,6 @@ sidebar:
     <button type="button">그냥 버튼</button>
 </form>
 
-<div id="output"></div>
-
-<script>
-// Form submission handler
-document.getElementById('nameForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
-    var name = document.getElementById('id_1').value; // Get input value
-    document.getElementById('output').textContent = '선택된 이름: ' + name; // Display name
-});
-</script>
-
 <br>
 
 ```html
