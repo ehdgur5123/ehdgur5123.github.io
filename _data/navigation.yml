@@ -260,7 +260,10 @@ Linux:
         url: "/posts/LinuxCommand-rename/"  
       - title: "sed 명령어"
         url: "/posts/LinuxCommand-sed/"  
+      - title: "groupdel 명령어"
+        url: "/posts/LinuxCommand-groupdel/"  
 
+        
 JavaScript:
   - title: "JavaScript List"
     children:
