@@ -262,6 +262,10 @@ Linux:
         url: "/posts/LinuxCommand-sed/"  
       - title: "groupdel 명령어"
         url: "/posts/LinuxCommand-groupdel/"  
+      - title: "id 명령어"
+        url: "/posts/LinuxCommand-id/"  
+      - title: "tar 명령어"
+        url: "/posts/LinuxCommand-tar/"  
 
         
 JavaScript:
