@@ -266,6 +266,8 @@ Linux:
         url: "/posts/LinuxCommand-id/"  
       - title: "tar 명령어"
         url: "/posts/LinuxCommand-tar/"  
+      - title: "ssh 명령어"
+        url: "/posts/LinuxCommand-ssh/"  
 
         
 JavaScript:
