@@ -74,7 +74,7 @@ sidebar:
 - `ping`: 특정 호스트에 대한 네트워크 연결을 확인합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ping))
 - `netstat`: 네트워크 연결, 라우팅 테이블 등을 표시합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-netstat))
 - `ssh`: 원격 서버에 안전하게 접속합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ssh))
-- `scp`: 원격 서버와 파일을 안전하게 복사합니다.
+- `scp`: 원격 서버와 파일을 안전하게 복사합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-scp))
 - `wget`: 웹에서 파일을 다운로드합니다.
 - `curl`: 데이터를 전송하거나 다운로드합니다.
 - `host`: DNS의 정보를 조회합니다(비대화형 모드).(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-host))
