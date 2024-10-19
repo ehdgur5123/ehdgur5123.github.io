@@ -58,6 +58,8 @@ Network:
         url: "/posts/Network-05/"  
       - title: "6. 허브(hub)"
         url: "/posts/Network-06/"  
+      - title: "7. 스위치(switch)"
+        url: "/posts/Network-07/"  
 
 Security:
   - title: "Security List"
