@@ -116,5 +116,5 @@ sidebar:
 # 10. 디스크 관리
 - `fdisk`: 디스크 파티션을 관리합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-fdisk))
 - `mkfs`: 파일 시스템을 생성합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-mkfs))
-- `mount`: 파일 시스템을 마운트합니다.
+- `mount`: 파일 시스템을 마운트합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-mount))
 - `umount`: 파일 시스템을 언마운트합니다.

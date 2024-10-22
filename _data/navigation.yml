@@ -276,6 +276,8 @@ Linux:
         url: "/posts/LinuxCommand-fdisk/" 
       - title: "mkfs 명령어"
         url: "/posts/LinuxCommand-mkfs/" 
+      - title: "mount 명령어"
+        url: "/posts/LinuxCommand-mount/" 
 
         
 JavaScript:
