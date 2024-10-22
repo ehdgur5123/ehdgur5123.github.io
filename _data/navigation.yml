@@ -274,6 +274,8 @@ Linux:
         url: "/posts/LinuxCommand-scp/"  
       - title: "fdisk 명령어"
         url: "/posts/LinuxCommand-fdisk/" 
+      - title: "mkfs 명령어"
+        url: "/posts/LinuxCommand-mkfs/" 
 
         
 JavaScript:
