@@ -280,6 +280,8 @@ Linux:
         url: "/posts/LinuxCommand-mount/" 
       - title: "umount 명령어"
         url: "/posts/LinuxCommand-umount/" 
+      - title: "fg 명령어"
+        url: "/posts/LinuxCommand-fg/" 
 
         
 JavaScript:
