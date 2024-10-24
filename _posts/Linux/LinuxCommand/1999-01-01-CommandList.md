@@ -52,9 +52,9 @@ sidebar:
 - `htop`: top 명령어의 개선된 버전으로, 더 직관적인 인터페이스를 제공합니다.
 - `kill`: 프로세스를 종료합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-kill))
 - `pkill`: 이름을 기반으로 프로세스를 종료합니다.
-- `bg`: 백그라운드에서 작업을 실행합니다.
 - `fg`: 포어그라운드에서 백그라운드 작업을 가져옵니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-fg))
-- `jobs`: 현재 쉘 세션에서 백그라운드 작업을 나열합니다.
+- `bg`: 백그라운드에서 작업을 실행합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-bg))
+- `jobs`: 현재 쉘 세션에서 백그라운드 작업을 나열합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-jobs))
 
 # 4. 사용자 관리
 

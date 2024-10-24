@@ -282,6 +282,10 @@ Linux:
         url: "/posts/LinuxCommand-umount/" 
       - title: "fg 명령어"
         url: "/posts/LinuxCommand-fg/" 
+      - title: "bg 명령어"
+        url: "/posts/LinuxCommand-bg/" 
+      - title: "jobs 명령어"
+        url: "/posts/LinuxCommand-jobs/" 
 
         
 JavaScript:
