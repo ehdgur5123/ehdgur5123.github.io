@@ -13,6 +13,10 @@ sidebar:
 
 <hr>
 
+# 유닉스 리눅스 명령어 사전
+
+👉 [유닉스 리눅스 명령어 사전(네이버)](https://terms.naver.com/list.naver?cid=59321&categoryId=59321&so=st4.asc)
+
 # 1. 파일 및 디렉토리 관리
 
 - `ls`: 디렉토리 내 파일 및 폴더 목록을 표시합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ls))
