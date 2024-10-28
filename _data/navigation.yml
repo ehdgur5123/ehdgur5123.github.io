@@ -288,6 +288,8 @@ Linux:
         url: "/posts/LinuxCommand-bg/" 
       - title: "jobs 명령어"
         url: "/posts/LinuxCommand-jobs/" 
+      - title: "xdg-open 명령어"
+        url: "/posts/LinuxCommand-xdg-open/" 
 
         
 JavaScript:

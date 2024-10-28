@@ -34,7 +34,7 @@ sidebar:
 - `ln`: 하드 링크 및 심볼릭 링크를 생성합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ln))
 - `file`: 파일의 타입을 식별할 때 사용합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-file))
 - `rename`: 파일명 또는 디렉토리명을 일괄적으로 변경합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-rename))
-- `xdg-open`: CLI에서의 디렉토리 경로를 GUI로 띄웁니다. 
+- `xdg-open`: 파일, 디렉토리, URL을 GUI로 실행합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-xdg-open))
 
 # 2. 파일 내용 관리
 
