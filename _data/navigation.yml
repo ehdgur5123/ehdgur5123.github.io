@@ -76,15 +76,15 @@ Security:
         url: "/posts/Security-05/" 
       - title: "6. nikto 명령어"
         url: "/posts/Security-06/" 
-      - title: "7. burpsuite 도구"
+      - title: "7. Burpsuite 도구"
         url: "/posts/Security-07/" 
-      - title: "8. burpsuite 프록시(Proxy) 설정"
+      - title: "8. Burpsuite 프록시(Proxy) 설정"
         url: "/posts/Security-08/" 
       - title: "9. Try Hack Me 사이트"
         url: "/posts/Security-09/" 
       - title: "10. wireshark 도구"
         url: "/posts/Security-10/"
-      - title: "11. burpsuite 프록시 인터셉트"
+      - title: "11. Burpsuite Intercept"
         url: "/posts/Security-11/"
       - title: "12. HTML Injection"
         url: "/posts/Security-12/"
@@ -92,7 +92,9 @@ Security:
         url: "/posts/Security-13/"
       - title: "14. Broken Authentication"
         url: "/posts/Security-14/"
-
+      - title: "15. Burpsuite Intruder"
+        url: "/posts/Security-15/"
+        
         
 
 HTML&CSS:
