@@ -292,6 +292,8 @@ Linux:
         url: "/posts/LinuxCommand-jobs/" 
       - title: "xdg-open 명령어"
         url: "/posts/LinuxCommand-xdg-open/" 
+      - title: "curl 명령어"
+        url: "/posts/LinuxCommand-curl/" 
 
         
 JavaScript:

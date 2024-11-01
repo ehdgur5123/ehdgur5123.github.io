@@ -81,7 +81,7 @@ sidebar:
 - `ssh`: 원격 서버에 안전하게 접속합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-ssh))
 - `scp`: 원격 서버와 파일을 안전하게 복사합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-scp))
 - `wget`: 웹에서 파일을 다운로드합니다.
-- `curl`: 데이터를 전송하거나 다운로드합니다.
+- `curl`: 데이터를 전송하거나 다운로드합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-curl))
 - `host`: DNS의 정보를 조회합니다(비대화형 모드).(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-host))
 - `nslookup`: DNS의 정보를 조회합니다(대화형 모드).(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-nslookup))
 - `whois`: 도메인 이름 또는 IP 주소에 대한 등록 정보를 조회(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-whois))
