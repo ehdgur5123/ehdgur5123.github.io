@@ -135,13 +135,17 @@ h2.archive__subtitle {
     }
 
     .page__content p > em {
-        color: crimson;
-        font-style: italic;
+        color: black;
+        font-style: normal;
+        font-weight: bold;
+        /*font-style: italic;*/
     }
 
     .page__content li > em {
         color: crimson;
-        font-style: italic;
+        font-style: normal;
+        font-weight: bold;
+        /*font-style: italic;*/
     }
 
     #img_center {

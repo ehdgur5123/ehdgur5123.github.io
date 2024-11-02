@@ -60,6 +60,9 @@ Network:
         url: "/posts/Network-06/"  
       - title: "7. 스위치(switch)"
         url: "/posts/Network-07/"  
+      - title: "8. 인터넷 프로토콜(IP)"
+        url: "/posts/Network-08/" 
+
 
 Security:
   - title: "Security List"
