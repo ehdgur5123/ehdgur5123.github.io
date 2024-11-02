@@ -297,6 +297,8 @@ Linux:
         url: "/posts/LinuxCommand-xdg-open/" 
       - title: "curl 명령어"
         url: "/posts/LinuxCommand-curl/" 
+      - title: "passwd 명령어"
+        url: "/posts/LinuxCommand-passwd/" 
 
         
 JavaScript:

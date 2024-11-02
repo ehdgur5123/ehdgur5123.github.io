@@ -66,7 +66,7 @@ sidebar:
 - `useradd`: 새로운 사용자를 생성합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-useradd))
 - `usermod`: 기존 사용자 정보를 수정합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-usermod))
 - `userdel`: 사용자를 삭제합니다.
-- `passwd`: 사용자의 비밀번호를 변경합니다.
+- `passwd`: 사용자의 비밀번호를 변경합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-passwd))
 - `groupadd`: 새로운 그룹을 생성합니다.
 - `groupdel`: 그룹을 삭제합니다.(👉 [자세히 보기](https://ehdgur5123.github.io/posts/LinuxCommand-groupdel))
 - `groups`: 사용자가 속한 그룹 목록을 출력합니다.
