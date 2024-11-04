@@ -64,7 +64,7 @@ Network:
         url: "/posts/Network-08/" 
       - title: "9. ARP 프로토콜"
         url: "/posts/Network-09/" 
-      - title: "10. IP 주소"
+      - title: "10. 클래스풀 주소 체계"
         url: "/posts/Network-10/" 
 
 
