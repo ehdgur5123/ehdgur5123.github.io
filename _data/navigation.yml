@@ -68,7 +68,10 @@ Network:
         url: "/posts/Network-10/" 
       - title: "11. 클래스리스 주소 체계"
         url: "/posts/Network-11/" 
-
+      - title: "12. 공인 IP 주소와 사설 IP 주소"
+        url: "/posts/Network-12/" 
+      - title: "13. 정적 IP 주소와 동적 IP 주소"
+        url: "/posts/Network-13/" 
 
 Security:
   - title: "Security List"
