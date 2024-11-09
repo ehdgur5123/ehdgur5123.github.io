@@ -308,6 +308,8 @@ Linux:
         url: "/posts/LinuxCommand-curl/" 
       - title: "passwd 명령어"
         url: "/posts/LinuxCommand-passwd/" 
+      - title: "man 명령어"
+        url: "/posts/LinuxCommand-man/" 
 
         
 JavaScript:
