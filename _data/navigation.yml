@@ -72,6 +72,8 @@ Network:
         url: "/posts/Network-12/" 
       - title: "13. 정적 IP 주소와 동적 IP 주소"
         url: "/posts/Network-13/" 
+      - title: "14. 라우팅"
+        url: "/posts/Network-14/" 
 
 Security:
   - title: "Security List"
