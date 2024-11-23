@@ -199,6 +199,12 @@ OpenCV:
       - title: "1. 이미지 기초"
         url: "/posts/OpenCV-01/" 
 
+English:
+  - title: "English List"
+    children:
+      - title: "1. English Grammar"
+        url: "/posts/English-01/" 
+
 Linux:
   - title: "Linux Master"
     children:
