@@ -3,7 +3,7 @@ layout: single
 title: "리눅스 마스터 1급"
 categories: Linux
 tag: [Linux]
-permalink : /posts/LinuxMaster-06/
+permalink : /posts/LinuxMaster-29/
 classes : custom-style
 toc: true
 author_profile: false
