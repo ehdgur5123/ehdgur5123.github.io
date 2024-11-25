@@ -217,7 +217,9 @@ Linux:
       - title: "4. 리다이렉션"
         url: "/posts/LinuxMaster-04/" 
       - title: "5. 리눅스 파일 시스템 표준(FHS)"
-        url: "/posts/LinuxMaster-05/"         
+        url: "/posts/LinuxMaster-05/"     
+      - title: "6. 제어 연산자"
+        url: "/posts/LinuxMaster-06/"    
   - title: "Linux Command"
     children:
       - title: "리눅스 명령어의 종류"
