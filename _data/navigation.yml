@@ -204,7 +204,9 @@ English:
     children:
       - title: "1. English Grammar"
         url: "/posts/English-01/" 
-
+      - title: "2. English Word"
+        url: "/posts/English-02/" 
+        
 Linux:
   - title: "Linux Master"
     children:
