@@ -388,3 +388,6 @@ Others:
       url: "/posts/Others-01/"
     - title: "2. Paris 여행"
       url: "/posts/Others-02/"
+    - title: "3. 파이썬 venv 가상환경 설정"
+      url: "/posts/Others-03/"
+      
