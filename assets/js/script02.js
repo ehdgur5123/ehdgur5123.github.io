@@ -1,5 +1,7 @@
 // 배열에 미리 저장된 값
-const validValues = ['banana', 'apple', 'cherry'];
+const validValues = []
+const Day01Values = ['banana', 'apple', 'cherry'];
+const Day02Values = ['induce', 'reduce', 'seduce'];
 
 // 입력 이벤트 처리 함수
 function checkAndHighlight(event) {
@@ -20,7 +22,14 @@ function checkAndHighlight(event) {
 }
 
 // 테이블의 모든 <input> 요소에 이벤트 리스너 추가
-const inputs = document.querySelectorAll('#myTable input');
-inputs.forEach(input => {
+const Day01_inputs = document.querySelectorAll('#Day01 input');
+Day01_inputs.forEach(input => {
+    validValues = Day01Values
+    input.addEventListener('input', checkAndHighlight); // 입력할 때마다 확인
+});
+
+const Day02_inputs = document.querySelectorAll('#Day02 input');
+Day01_inputs.forEach(input => {
+    validValues = Day02Values
     input.addEventListener('input', checkAndHighlight); // 입력할 때마다 확인
 });
