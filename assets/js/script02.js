@@ -1,6 +1,6 @@
 // 배열에 미리 저장된 값
-const Day01Values = ['banana', 'apple', 'cherry'];
-const Day02Values = ['induce', 'reduce', 'seduce'];
+const Day01Values = ['capable', 'capture', 'anticipate', 'participate', 'conceive', 'deceive','perceive', 'receive', 'accept', 'contraception', 'except', 'intercept', 'susceptible', 'capital', 'cap', 'cape', 'cabbage', 'chief', 'achieve', 'chef', 'precede', 'recede', 'proceed', 'exceed', 'succeed', 'access', 'predecessor', 'incessant'];
+const Day02Values = ['educate', 'introduce', 'reduce', 'produce', 'seduce', 'induce','deduce', 'duct', 'abduct', 'conduct', 'deduct', 'facility', 'facsimile', 'fact', 'factor', 'manufacture', 'faculty', 'affect', 'effect', 'defect', 'infect', 'artificial', 'deficient', 'sufficient', 'magnificent', 'proficient', 'profit', 'feat', 'defeat'];
 
 // 입력 이벤트 처리 함수
 function checkAndHighlight(event) {
