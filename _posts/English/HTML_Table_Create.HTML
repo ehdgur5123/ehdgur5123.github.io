@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function generateTable() {
+            const Day01Values = ['capable', 'capture', 'anticipate', 'participate', 'conceive', 'deceive','perceive', 'receive', 'accept', 'contraception', 'except', 'intercept', 'susceptible', 'capital', 'cap', 'cape', 'cabbage', 'chief', 'achieve', 'chef', 'precede', 'recede', 'proceed', 'exceed', 'succeed', 'access', 'predecessor', 'incessant'];
+            let count = 0;
+            const Table = document.createElement("table");
+            const Tbody = document.createElement("tbody");
+            for (let i = 0; i < 5; i++) {
+                const Trow = document.createElement("tr");
+                for (let j = 0; j < 4; j++) {
+                    const Tcell = document.createElement("td");
+                    const Tinput = document.createElement("input");
+                    Tinput.type = "text";
+                    Tinput.placeholder = Day01Values[count];
+                    count = count + 1;
+                    Tcell.appendChild(Tinput);
+                    Trow.appendChild(Tcell);
+                }
+                Tbody.appendChild(Trow);
+            }
+            
+            Table.appendChild(Tbody);
+            document.body.appendChild(Table);
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="Generate a table" onclick="generateTable()" />
+</body>
+</html>
