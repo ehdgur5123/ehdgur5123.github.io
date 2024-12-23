@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+td.match {
+    background-color: rgb(183, 240, 177);/* 매칭된 셀의 색상 */
+    color: rgb(183, 240, 177);
+}
+input {
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+}
