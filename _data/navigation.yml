@@ -112,9 +112,10 @@ Security:
         url: "/posts/Security-14/"
       - title: "15. Burpsuite Intruder"
         url: "/posts/Security-15/"
+      - title: "16. Bruteforce Attacks"
+        url: "/posts/Security-16/"
         
         
-
 HTML&CSS:
   - title: "HTML List"
     children:
