@@ -78,6 +78,10 @@ Network:
         url: "/posts/Network-15/" 
       - title: "16. 포트(Port)"
         url: "/posts/Network-16/" 
+      - title: "17. ICMP 프로토콜"
+        url: "/posts/Network-17/" 
+      - title: "18. TCP와 UDP"
+        url: "/posts/Network-18/" 
 
 Security:
   - title: "Security List"
