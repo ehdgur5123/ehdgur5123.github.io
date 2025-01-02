@@ -4,6 +4,7 @@ const Day02Values = ['educate', 'introduce', 'reduce', 'produce', 'seduce', 'ind
 const Day03Values = ['offer', 'transfer', 'refer', 'prefer', 'confer', 'defer', 'differ', 'suffer', 'infer', 'fertile', 'autograph', 'photograph', 'biography', 'calligraphy', 'geography', 'diagram', 'program', 'telegram', 'grammar', 'project', 'reject', 'inject', 'subject', 'object', 'adjective', 'jet'];
 const Day04Values = ['prologue', 'dialogue', 'monologue', 'apology', 'logic', 'geology', 'physiology', 'psychology', 'theology', 'admit', 'commit', 'emit', 'omit', 'permit', 'remit', 'submit', 'transmit', 'mission', 'intermission', 'missile', 'dismiss', 'premise', 'promise', 'compromise', 'mess'];
 const Day05Values = ['depend', 'expend', 'suspend', 'ponder', 'compensate', 'pension', 'complicate', 'duplicate', 'replicate', 'complicity', 'explicit', 'reply', 'apply', 'imply', 'deploy', 'employ', 'diploma', 'exploit', 'perplex', 'complex', 'simple', 'multiple'];
+const Day06Values = ['position', 'positive', 'posture', 'compose', 'component', 'compound', 'dispose', 'deposit', 'expose', 'impose', 'interpose', 'oppose', 'propose', 'propound', 'purpose', 'suppose', 'press', 'compress', 'depress', 'express', 'impress', 'oppress', 'suppress'];
 
 // 입력 이벤트 처리 함수
 function checkAndHighlight(event) {
@@ -24,7 +25,10 @@ function checkAndHighlight(event) {
         ValidValues = Day04Values;
     } else if (table.id === 'Day05') {
         ValidValues = Day05Values;
+    } else if (table.id === 'Day06') {
+        ValidValues = Day06Values;
     }
+
 
     // 부모 <td> 요소 선택
     const cell = event.target.parentNode;
