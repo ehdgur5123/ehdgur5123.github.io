@@ -219,8 +219,9 @@ NodeJS:
     children:
       - title: "1. NodeJS 기초"
         url: "/posts/NodeJS-01/" 
+      - title: "2. JavaScript 기초문법"
+        url: "/posts/NodeJS-02/" 
        
-
 Linux:
   - title: "Linux Master"
     children:
