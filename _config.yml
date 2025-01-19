@@ -323,5 +323,6 @@ defaults:
         nav: "pandas"
         nav: "Others"
         nav: "English"
+        nav: "NodeJS"
 
 date_format: "%Y-%m-%d"
