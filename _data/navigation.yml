@@ -221,7 +221,9 @@ NodeJS:
         url: "/posts/NodeJS-01/" 
       - title: "2. JavaScript 기초문법"
         url: "/posts/NodeJS-02/" 
-       
+      - title: "3. 노드의 모듈"
+        url: "/posts/NodeJS-03/"
+          
 Linux:
   - title: "Linux Master"
     children:

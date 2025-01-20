@@ -158,8 +158,39 @@ displayC();
 
 ### 콜백 함수(Callback Function)
 
+**콜백 함수**란 다른 함수의 매개변수로 사용하는 함수를 말합니다.
+
+예를 들어, `A함수(B함수)`로 지정하면 `A함수`를 모두 실행한 후 `B함수`를 실행합니다.
+
+#### 예제1
+
+위의 [비동기 방식 예시](https://ehdgur5123.github.io/posts/NodeJS-02/#%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B0%A9%EC%8B%9D-%EC%98%88%EC%8B%9C)에서 사용된 `setTimeout()` 함수가 콜백 함수의 형태입니다.
+
+```javascript
+setTimeout( () => { console.log("B"); }, 2000 );
+```
+
+`setTimeout()` 함수 안에 `() => { console.log("B"); }` 함수가 들어간 형태로, 2초가 지나면 콘솔에 B를 출력하라는 의미입니다.
+
+#### 예제2
+
+다음은 위의 [비동기 방식 예시](https://ehdgur5123.github.io/posts/NodeJS-02/#%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B0%A9%EC%8B%9D-%EC%98%88%EC%8B%9C)를 콜백 함수를 통해 비동기 처리한 결과입니다.
+
+```javascript
+function displayA() { console.log("A"); }
+
+function displayB(callback) { setTimeout( () => { console.log("B"); callback();}, 2000 );}
+
+function displayC() { console.log("C"); }
+
+displayA();
+displayB(displayC);
+```
+
 ### 프로미스(Promise)
+
+콜백 안에 계속 콜백이 포함될 경우 콜백 지옥을 만나게 됩니다.
 
 ### async / await
 
-
+# 자바스크립트 객체
