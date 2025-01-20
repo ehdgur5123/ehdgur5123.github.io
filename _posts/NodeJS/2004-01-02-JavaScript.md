@@ -156,7 +156,7 @@ displayC();
 |프로미스     |에크마스크립트 2015부터 도입   |프로미스 객체와 콜백 함수를 사용해서 실행 순서를 제어   |
 |async/await |에크마스크립트 2017부터 도입   |async와 await 예약어를 사용해서 실행 순서를 제어   |
 
-### 콜백 함수(Callback Function)
+### A. 콜백 함수(Callback Function)
 
 **콜백 함수**란 다른 함수의 매개변수로 사용하는 함수를 말합니다.
 
@@ -187,10 +187,63 @@ displayA();
 displayB(displayC);
 ```
 
-### 프로미스(Promise)
+### B. 프로미스(Promise)
 
-콜백 안에 계속 콜백이 포함될 경우 콜백 지옥을 만나게 됩니다.
+프로미스(Promise)는 처리에 성공했을 때와 성공하지 않았을 때의 반환 결과를 미리 약속해 둔 것입니다.
 
-### async / await
+다음은 프로미스(Promise)를 사용한 코드의 예시입니다.
+
+```javascript
+let likePizza = true;
+
+const 피자 = new Promise((resolve, reject) => {
+  if(likePizza)
+    resolve('피자를 주문합니다.');
+  else
+    reject('피자를 주문하지 않습니다.');
+});
+
+피자
+  .then(결과 => console.log(결과))
+  .catch(에러 => console.log(에러))
+  .finally(() => console.log('하기 싫다~'));
+```
+
+1. `new Promise`는 `resolve`와 `reject`라는 두 개의 콜백 함수가 있는 실행 함수를 인자로 받습니다.
+2. resolve(value)는 작업이 성공했음을 나타내며, 결과값(value)을 전달합니다.(value = `피자를 주문합니다.`)
+3. reject(reason)는 작업이 실패했음을 나타내며, 실패 이유(reason)를 전달합니다.(reason = `피자를 주문하지 않습니다.`)
+4. **then** 메서드: resolve가 호출된 경우 실행되며, 성공한 결과값을 인자로 받습니다.
+5. **catch** 메서드: reject가 호출된 경우 실행되며, 실패 이유를 인자로 받습니다.
+6. **finally** 메서드: (선택 사항)성공 여부와 상관없이 항상 실행됩니다.
+
+### C. async / await
+
+함수를 선언할 때 함수 앞에 **async**를 붙여서 선언하면 그 함수 안에서는 **await**를 붙여서 비동기 처리를 할 수 있습니다.
+
+<small>async은 asynchronous(비동기)의 줄임말, await는 '기다리다'라는 뜻</small>
+
+```javascript
+async function() {
+  ...
+  await 함수
+}
+```
+
+다음은 async과 await를 사용한 코드의 예시입니다.
+
+```javascript
+async function init() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/users");  // 서버에서 가져오기
+  const users = await response.json();  // 가져온 결과를 users에 저장
+  console.log(users);  // users 표시
+}
+
+init();
+```
+
+1. *init* 함수 안에서 비동기 처리를 할 것이므로 init 함수 선언 앞부분에 *async*를 붙입니다.
+2. *fetch*는 네트워크를 통해서 서버의 자료를 가져오는 함수입니다. 서버에서 자료를 가져오려면 시간이 소요되므로, fetch 앞에 *await*를 붙여서 시간이 얼마나 걸리든 자료 가져오기가 끝난 후에 다음 코드로 넘어가게 합니다.
+3. `response.json` 함수는 서버에서 가져온 프로미스 객체를 프로그램에서 사용할 수 있는 객체로 변환합니다. 이 과정도 시간이 소요되므로, 앞에 *await*를 붙입니다.
+4. 변환된 객체 users를 터미널 창에 표시합니다.
 
 # 자바스크립트 객체
