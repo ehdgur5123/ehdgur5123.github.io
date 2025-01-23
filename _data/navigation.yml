@@ -225,6 +225,8 @@ NodeJS:
         url: "/posts/NodeJS-03/"
       - title: "4. path 모듈"
         url: "/posts/NodeJS-04/"
+      - title: "5. fs 모듈"
+        url: "/posts/NodeJS-05/"
         
 
 
