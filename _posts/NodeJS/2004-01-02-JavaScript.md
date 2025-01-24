@@ -23,8 +23,7 @@ sidebar:
 let num1 = 10;
 let num2 = 20;
 
-// 연결 연산자를 사용할 경우
-console.log()
+console.log(`10 + 20 = ${num1+num2});
 ```
 
 # 함수 사용하기
@@ -73,7 +72,7 @@ function(매개변수) {...}
 
 ```javascript
 let hi = () => { return '안녕하세요' };
-//console.log(hi());
+console.log(hi());
 ```
 
 ### 예제2
@@ -84,7 +83,7 @@ let hi = () => { return '안녕하세요' };
 
 ```javascript
 let hi = () => '안녕하세요';
-//console.log(hi());
+console.log(hi());
 ```
 
 ### 예제3
